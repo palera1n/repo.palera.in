@@ -1,0 +1,24 @@
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64
+Version: 3.0b1
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 5816
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds
+Recommends: iterm2-shell-integration
+Conflicts: ws.hbang.newterm2, ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm2, ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/ws.hbang.newterm3_3.0b1_iphoneos-arm64.deb
+Size: 2180662
+MD5sum: 9eac366ff713a41f19fb6cc2b70bb254
+SHA1: bb94048a68236bacb4c880b1f9e88c3e9855055b
+SHA256: 41c06918dca22107661182d4964ab0e1ab8bec5d4f9bc312b22d1be3793997fe
+SHA512: bb240612285d96787b44c2129fb908c4cd01fa066fad999232272e5a5080db4ba801d8cedb3b9f09e8a9fdedb2d4c6b7146b43f1f5d6a2603e93bbf536ec5536
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Name: NewTerm 3
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
+
