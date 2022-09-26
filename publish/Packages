@@ -1,3 +1,37 @@
+Package: libpython3.9-dev
+Architecture: iphoneos-arm64
+Version: 3.9.9-1
+Priority: optional
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1108
+Depends: libpython3.9 (= 3.9.9-1), libcrypt-dev, firmware (>= 14.0) | libexpat1-dev
+Filename: ./pool/libpython3.9-dev_3.9.9-1_iphoneos-arm64.deb
+Size: 157856
+MD5sum: 6b89aea5dbb972efb311d27559a1d533
+SHA1: f32b362fe20fdf897ae420a5894079f349ca9302
+SHA256: 030161172ab886b60c4bae670ab3fa047fec2db2049a945cf627705327f8bb54
+SHA512: daa7d89769a28aadde155df488b431268fc6a2c0de34a6a21ba4771acf4d59a15ac92a14d6ba4925b9ae7b04ddf7b01184aad5db0afc760d3be48d40904c1e9a
+Description: Interpreted, interactive, object-oriented programming language. Contains the header files necessary for developing.
+
+Package: libpython3.9
+Architecture: iphoneos-arm64
+Version: 3.9.9-1
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 71504
+Depends: libiosexec1 (>= 1.2.2), libncursesw6 (>= 6.0), libreadline8 (>= 8.0), libssl3, libffi8, liblzma5 (>= 5.2.5), libgdbm6, libintl8, firmware (>= 14.0) | libexpat1, libcrypt2
+Conflicts: python3.9 (<< 3.9.5)
+Replaces: python3.9 (<< 3.9.5)
+Filename: ./pool/libpython3.9_3.9.9-1_iphoneos-arm64.deb
+Size: 17837972
+MD5sum: ffd3c132c063e983c2919888517bd92b
+SHA1: a64a6eb0347e910e842f017da8da2d1cae8b7702
+SHA256: 3056b6ff55db4b6b02f1f303c1d3e6b7a4ca0a71005b22729fbe63f3bf803f40
+SHA512: 845ad38129519791c0424bba0107e5ca9145110367fd2fcb5df838ceffd938bc0953756a8e3c1e29ac99ff8dd6f9975bace8f8d910d8815c01498c8fb936862a
+Description: Interpreted, interactive, object-oriented programming language. Contains the standard library and other shared libraries.
+
 Package: openssh-client
 Architecture: iphoneos-arm64
 Version: 8.9p1
@@ -67,6 +101,40 @@ SHA1: e7e708d1ac170daf451b382fb97f7de8af2036e3
 SHA256: 451f239ce64bb4afac7f4c69860755219d03aa3c15d5a8dc39df7cba8c1a6dda
 SHA512: 7e788da6f6bb210895a0254d15dafb9f53aa0071db283a45426084eace2b8f0098d572dc0571fe2f93b0ee15a17b745636457b9db817a34b7a0dc7cdc3b6178e
 Description: secure shell client and server (metapackage)
+
+Package: python3.9
+Architecture: iphoneos-arm64
+Version: 3.9.9-1
+Priority: optional
+Section: Scripting
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 92
+Depends: libiosexec1 (>= 1.2.2), libpython3.9 (= 3.9.9-1)
+Filename: ./pool/python3.9_3.9.9-1_iphoneos-arm64.deb
+Size: 14338
+MD5sum: 350dd9322bda9e12a8a92c7851ff8860
+SHA1: d212c10378b677ef6f2cad5e29f62e7715d31a48
+SHA256: fd767d2f3658b6758ad2c8b53e95fc5bdabda3750e3c572a5cc5a24cdd4f36de
+SHA512: 39ff1cf2fcd80e3938aca50078a789a3485571a379ff6789bbe08a8e14ac4afb39ec61ac4e89f1b231be655390939698d258e5ac140bc3169059af9d0367c502
+Description: Interpreted, interactive, object-oriented programming language.
+
+Package: python3
+Architecture: iphoneos-arm64
+Version: 3.9.9-1
+Priority: optional
+Section: Scripting
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 16
+Depends: python3.9
+Filename: ./pool/python3_3.9.9-1_iphoneos-arm64.deb
+Size: 5418
+MD5sum: 8dab2d63304147cca0f52eefdc35486d
+SHA1: 4308c89b4cfebe3f88d9f646856ecba29c21d8ca
+SHA256: ef93446d9b7964e33b29db4f1cef08f7b4c8cc5c8bda7d00afa8007873f62234
+SHA512: 2d88649f79eaf20952c8fb3157b06e1244be74d4f951d2f7dd692dc1420f1d7a0e566ffa9ac590313d0fd8314e1b91b1fcdb4a4c87eac34b40c07b3d1a2ec09d
+Description: Interpreted, interactive, object-oriented programming language.
+ Installing pip from the command line can be done with the `sudo python -m ensurepip` command.
+ After installing pip, place an SDK for your platform in /usr/share/SDKs. (e.g. /usr/share/SDKs/iPhoneOS.sdk)
 
 Package: sudoworking
 Architecture: iphoneos-arm64
