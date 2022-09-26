@@ -28,5 +28,5 @@ apt-ftparchive \
     release $OUTPUT_DIR > $OUTPUT_DIR/Release
 
 cp -R pool "$OUTPUT_DIR"
-cp CydiaIcon.png "$OUTPUT_DIR"
+cp *.png "$OUTPUT_DIR"
 cp index.html "$OUTPUT_DIR"
