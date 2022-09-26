@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install build requirements
-        run: apt-get -y install lz4
+        run: sudo apt-get -y install lz4
 
       - name: Get commit SHA
         id: vars
