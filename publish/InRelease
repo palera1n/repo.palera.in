@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: iphoneos-arm64
+Codename: palera1n-repo
+Components: main
+Date: Mon, 26 Sep 2022 17:35:06 +0000
+Description: palera1n's official repo.
+Label: palera1n
+Origin: palera1n
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 31c13d58e10db8011e9e661484e694c6             1100 Packages
+ 569f4fad9a8064c687c2431f4092d06c              709 Packages.bz2
+ 3411edd29854966cea16021c74594fdd              654 Packages.gz
+ 18709170aa2cb535224432bcfbd8a6b4              879 Packages.lz4
+ 71ccd9e97facb63a6b56ed3df1422ba8              684 Packages.lzma
+ 3d832a70a141c13e017786e22d1eeda5              728 Packages.xz
+ 55d18bcac423e1231117565567e46a04              662 Packages.zst
+ b5357fb17fa451a59e14dbf8aa8850a5              208 Release
+SHA1:
+ bf8e55372b6bec5a6bc5a1f1fdec4627c76c7632             1100 Packages
+ 54800159414e136537917ebc9bdf42b4a79c98e8              709 Packages.bz2
+ 11489e3fc048d2f99db5b7d11cfc99ea8635ed2c              654 Packages.gz
+ e0c8021c02f91379d6ec0e29e2ee776875e6f7cf              879 Packages.lz4
+ 18cc9a9c77e48915273ad4d81576442d7a29599b              684 Packages.lzma
+ 036c25dcd1af8be028bb07276a9789725b92c680              728 Packages.xz
+ 42c6cddc5bd4fd22469de0bcdb0113770fb00686              662 Packages.zst
+ d7ad36a9820206c4fe87f9ade04d6a2763fe5da7              208 Release
+SHA256:
+ 0500473065f5f2a637a60ee94566ffd28b4ab8724516ca8330226ea26efde23e             1100 Packages
+ a39bfa44eccd20b468683f88932867eb5b0117e628be9bbd4dd15282b4f52067              709 Packages.bz2
+ a67080abf68ae059dcc21cf0c3dae2dd7daaf5fa999a43b2177c46b140c3ff0c              654 Packages.gz
+ c79e9b31da58366abdf42069e13ab097a113cb2ec4b5df56573d6cc0fb130ee5              879 Packages.lz4
+ cc5934febe4b23c031af5c57c2ce0679abea5654126d6fc830152896232d8897              684 Packages.lzma
+ d1644657174ad751f341866d9891307ddae1a6c5db12c43c42d93f013780fef1              728 Packages.xz
+ e929f166cdc64962c20c33fd45298d3e4dae82f94a45ff44d8182cd818f9a77b              662 Packages.zst
+ 96ea98e9ed076e7199fa0b3b1f1032780f0c5e90d34f02ee326b5378b3015080              208 Release
+SHA512:
+ cf44b79c3a9786141d62be146ff7d64f5c582989ea1280e455bdb40392c29a2f70b4bd506922f768aee8ea3a791ff008c10c84a555047b1d51da5f2ad275fa85             1100 Packages
+ 439b7fc06d2e6a3151ed40b9fe602a512bbc5cc911daca6a0d22c4ffdb70479d7de9ecbc23193ec00c77350af4b7da170a9cec8d3e2d29f3ef61e3c5cdb604fc              709 Packages.bz2
+ 1405f1380f1df377d830670d2d426dc03547b93f08168ceaa9ad86a372812bbeff4de4703eb43e5fb699cd0d5cfd0c07597e2240ea52fec1c4532534a1975c64              654 Packages.gz
+ cf0ed6eba03b9086fdcd208f7676cc0614905a2a5d91a732056c1964f14c7c10e181a0f5bbeb341b4170f2c8309b9c60aa0d18d5a5ee1da424a0698ab6783ddf              879 Packages.lz4
+ 963e7a2d72cba591805e7f4cf640277788f9853c0417a32d7abd063d28065b3f9923805266b4dd8be7315e9bc474de7d3ab85e3375211d25cc0cd5cc82d91fb8              684 Packages.lzma
+ bb48508d88ef1fc681da69f7fc3e6213eb8c1ab53ea72ceef07abbb907a1cf6d5607bd1a0b0dde29fd2b111059f809d8cabf3e0c2315cae534b156a4147b6b1f              728 Packages.xz
+ 9bc7cb1aa38abd9698706a57c39020b3ed37db40712b1a6fa7ce8b327c6305da1cb52c28fe0cdf02d1bd6e33d95c60dd0b9947cc93f6ea11599334cad1b0de0d              662 Packages.zst
+ f0f20e27e5493e12534f448749a7c1aaa273ae67fe2b788b9f46fc1667cf5b49951a05fab02ac14c128479fa0acdf68cda9afbbd22a33ffadda088b0141668cc              208 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEacSzG+2DRFLzvCH4+0WvngcjBu0FAmMx4tAACgkQ+0Wvngcj
+Bu3iswwAgQVPKHG55BF4Uud00jtSy3h36fGnDfVuOTnwT+D2sPuNYQXegMe+K+oA
+8QDQDpyrYC/BluIMmo6Ud8tUMpoQWD/u/xNP5PYAUVWLubc6+wvpaRM1kbXO6FW6
+I4/DDPnd+DHaSaAJDrcZ58uaAadkts/RopEpytrpZcBanHzQaM3oZOxvCav56tav
+XDnD6PiYmMtk7V/BIzD2FOFNOdczYt9eA1Ota2hRhe86IKC95iOgrj64ZTe8Jb1W
+jJdp0OqqIEuaRMScgKcFtnbO39J2AJJtW7CAfbObh2OspcvpIAl5GxCU01ubjhuv
+qlHNwL+W2YzdNfJzPjiy9OEaJ2aj/reaDhbI90gwhaf59yggW3uJihPZqfNdas4L
+rer1pUKhR0BJ9Y2gJLEcvQCNd46mRvZZXfiG3T1ebrpd9vFQzn56dtpN2iMwiZhu
+NKRGtWylmP6jHgcwwLKF2DMqVgRANuZ1ePy3DUfcWFHGgsGcHfwuUmypyjdZf+3z
++7O42QPb
+=DYPE
+-----END PGP SIGNATURE-----
