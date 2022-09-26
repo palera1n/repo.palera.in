@@ -1,10 +1,8 @@
 #!/bin/bash
-GPG_KEY="69C4B31BED834452F3BC21F8FB45AF9E072306ED"
 OUTPUT_DIR="publish"
 
 script_full_path=$(dirname "$0")
 cd "$script_full_path" || exit 1
-# rm $OUTPUT_DIR/Packages* $OUTPUT_DIR/*Release*
 rm -rf $OUTPUT_DIR
 mkdir -p $OUTPUT_DIR
 
@@ -28,12 +26,6 @@ apt-ftparchive \
     -o APT::FTPArchive::Release::Components="main" \
     -o APT::FTPArchive::Release::Description="palera1n's official repo." \
     release $OUTPUT_DIR > $OUTPUT_DIR/Release
-
-echo "[Repository] Signing Release using GPG Key..."
-gpg -vabs -u $GPG_KEY -o $OUTPUT_DIR/Release.gpg $OUTPUT_DIR/Release
-echo "[Repository] Generated detached signature for Release"
-gpg --clearsign -u $GPG_KEY -o $OUTPUT_DIR/InRelease $OUTPUT_DIR/Release
-echo "[Repository] Generated in-line signature for Release"
 
 cp -R pool "$OUTPUT_DIR"
 cp CydiaIcon.png "$OUTPUT_DIR"
