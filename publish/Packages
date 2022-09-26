@@ -1,3 +1,85 @@
+Package: openssh-client
+Architecture: iphoneos-arm64
+Version: 8.9p1
+Priority: important
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 3552
+Depends: libiosexec1 (>= 1.2.2), libssl3, libcrypt2, libmd0
+Conflicts: openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./pool/openssh-client_8.9p1_iphoneos-arm64.deb
+Size: 631714
+MD5sum: be887bd51e94d0e2c05cdf990acb544d
+SHA1: cf6d282be8845c16c26760ede43e9308c40706c4
+SHA256: fd5a4c609958695aff4bb7c726a4c4eeccd435e603f6b6d22fa1a9e21fad11b3
+SHA512: 0b94876185ccc580c56621edb1a22ec053e9bceb1c113f94962924c9e799628bc4f4a213aa6cce5b68f5a7aa09e303c15ec5670e2b34bece95c8ed1638c13fc8
+Description: secure shell (SSH) client, for secure access to remote machines
+
+Package: openssh-server
+Architecture: iphoneos-arm64
+Version: 8.9p1
+Priority: important
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1300
+Depends: libiosexec1 (>= 1.2.2), libssl3, openssh-client (= 8.9p1), openssh-sftp-server, libcrypt2, libpam2, libmd0
+Conflicts: com.midnightchips.localhostssh, openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./pool/openssh-server_8.9p1_iphoneos-arm64.deb
+Size: 334094
+MD5sum: e92206721e514b607924ecd70a283da5
+SHA1: 30747bfa3352fe4aaddc7caa8ef29543326c0d37
+SHA256: bab964e9d60b64cefc1c73cf5e67fdb9d496f3a54f4b03c897039e3de76c8271
+SHA512: 3285b6e1688c2d4338365d2aad2a3cadfab3d5f222997e426c89f265c5ef7bf528dd78a51e8ea7f8ba4629b6d28df5e4aa5d2c521228a948e10e074d2c790006
+Description: secure shell (SSH) server, for secure access from remote machines
+
+Package: openssh-sftp-server
+Architecture: iphoneos-arm64
+Version: 8.9p1
+Priority: important
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 148
+Depends: libiosexec1 (>= 1.2.2), libssl3, openssh-client (= 8.9p1), libcrypt2, libmd0
+Conflicts: openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./pool/openssh-sftp-server_8.9p1_iphoneos-arm64.deb
+Size: 38316
+MD5sum: 56d9801418f08d65bd4f9a140221e37f
+SHA1: 9b991ecfe09f47c8173b9e1d9d6d9ab4fb5de6cb
+SHA256: 932aaa2c89950a4e8b46f4c949a4790d0facfe54bc6d04eea8320a35e71b3a94
+SHA512: e90afefb1d5559f4fc2405558f41ed90a2eef371dbd13f93958992265d1f89068695b90fd641ecb7d50c78ddb5b9ea8297f300375af1a8f3ea9845701c8d5b6f
+Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
+
+Package: openssh
+Architecture: iphoneos-arm64
+Version: 1:0
+Priority: important
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 8
+Depends: openssh-client, openssh-server, openssh-sftp-server
+Filename: ./pool/openssh_8.9p1_iphoneos-arm64.deb
+Size: 3372
+MD5sum: 8b1ac720dc9a32159e6178ea76cc7e67
+SHA1: e7e708d1ac170daf451b382fb97f7de8af2036e3
+SHA256: 451f239ce64bb4afac7f4c69860755219d03aa3c15d5a8dc39df7cba8c1a6dda
+SHA512: 7e788da6f6bb210895a0254d15dafb9f53aa0071db283a45426084eace2b8f0098d572dc0571fe2f93b0ee15a17b745636457b9db817a34b7a0dc7cdc3b6178e
+Description: secure shell client and server (metapackage)
+
+Package: sudoworking
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Mineek <mineek@mineek.nl>
+Filename: ./pool/sudoworking_1.0-0_iphoneos-arm64.deb
+Size: 5216
+MD5sum: bdb35c8dc00938705a85d536f608fba5
+SHA1: 1efd7b607e11f8fbe4fe10453685047e5d1e778e
+SHA256: b331f3d8ef1a835a8bc38b08a0724ff867525ceed27c9be5df6aadb1c75833ae
+SHA512: ee4383043299a28f00296e0bebf9119f8042c6c740b7f54bfa93bae44fc24d008d6ad34b62ac3ffec8ed669bc372648e538f44750ca71b63a322122230d730ec
+Description: sudo using posix_spawn instead of setuid
+
 Package: ws.hbang.newterm3
 Architecture: iphoneos-arm64
 Version: 3.0b1
