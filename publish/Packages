@@ -1,5 +1,20 @@
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Applications
+Maintainer: opa334
+Filename: ./pool/com.opa334.trollstorehelper_1.1.1_iphoneos-arm64.deb
+Size: 211760
+MD5sum: 7dd8638de97986c6f2483946c3e05a87
+SHA1: 1a84ab77b8b1840edec925f70587e3bc976d9220
+SHA256: 290dbbe5c98bc794506c1a49bf8c504c38b0a6ebccf133cf408cce766953fcc8
+SHA512: 38efa369223ff6101a61fe9edc6207d9777f8bb7caf4389115986035c978034feb6346c7f7a458142b827769f5381a589b043f34178703acdcd4c0e58caa8020
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
 Version: 1.1
 Section: Applications
 Maintainer: opa334
