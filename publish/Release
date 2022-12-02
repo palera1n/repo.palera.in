@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm64
 Codename: palera1n-repo
 Components: main
-Date: Fri, 02 Dec 2022 14:12:51 +0000
+Date: Fri, 02 Dec 2022 14:15:23 +0000
 Description: palera1n's official repo.
 Label: palera1n
 Origin: palera1n
@@ -15,7 +15,7 @@ MD5Sum:
  81fa37ae05ad223fc5af4f7f17584d99             3492 Packages.lzma
  f7694086ebc35c81622daf82d5437b32             3540 Packages.xz
  cbcd3df0c21d1483a30f0f08139ca2e4             3531 Packages.zst
- 07929e4e63b74edad94471a74d992bd9              208 Release
+ 2bc0eedae35da2d7a668e88ad2ef40a6              208 Release
 SHA1:
  702fd42e61665dc7f0c7f06788a305592c949df6             9251 Packages
  9df5a3f9d8e58a55d9a331c85f0d3c4242d55b1b             3693 Packages.bz2
@@ -24,7 +24,7 @@ SHA1:
  11de0c1ec221ab8a07b716ef822b257ebf76c67a             3492 Packages.lzma
  65b61e73b9ca273f3ef4ca9a506abddbe80b732d             3540 Packages.xz
  6724b1d7e10cf1855bd87aeda72dcabbdf9ad580             3531 Packages.zst
- b6f006aa3077469e3e6008bb5d0bfdc3651e4fe7              208 Release
+ 310f19171d28110dba6af786c5b95c1e6e95f37a              208 Release
 SHA256:
  01918d318aeeb9ab6b552965bf39c097c21d6570468bc19a09a87835820e8995             9251 Packages
  f6c2f49630fca3787997170378a591f726aadf6bf46332a647bcb33a691999cf             3693 Packages.bz2
@@ -33,7 +33,7 @@ SHA256:
  bcd61bd3a251a5e4fb320601bc0230cc24c366ef56a54a799ff14be601450d3e             3492 Packages.lzma
  8c67f8805be63fe4360cf5a11f0712754027e00d0a73f134b6d8d3a1c0702911             3540 Packages.xz
  9203a57a58c74ed6fc050da9fd29734e4e0378c2c5896309f2d45bfc90dd1806             3531 Packages.zst
- 48913bdedd3ba7a579a9cb97df4d3cb2cb5556c262baf9e23f501b05da3fdc4e              208 Release
+ 7d2c9d1b5b71d3deb8160417944e78e972870814ff4f384975cc2511667e0522              208 Release
 SHA512:
  36effc44dd98bd9ef8b4b6f5171c578e0018a80583123db4cc7007e5911107368990af887f669823fffff9f6dfca8ac76699c63e8570607823785d0a3ec88fce             9251 Packages
  fdddfdc38d9b82037d0cfbec5c0db9e24f9483d9a28e45632de83526670c9692846cd60b233b82365fdeb5effcd2560b6ecfac0b33001d2ed914ea5b88f70409             3693 Packages.bz2
@@ -42,4 +42,4 @@ SHA512:
  49521d73397035a63370655a5d8e80b6059067a4c991303e596aade02d71c5ea36fe7afb1612b88fe7e6e244b20225979429f90487d148a67dd70067f7a36e3f             3492 Packages.lzma
  b7bde5303f4ffd598a6ef2899d0ab3ff21aba4ed08ab69324e637a1de8a03d0048ba4ef0763bf13eb7cba6ca89314f7d9934144c269388fe77ba7c79ed160b9d             3540 Packages.xz
  05fd602be6cb6642dbb5a76c8431d7abe8845395edb7ef14aef9364044f3480a8982b4e2b2380d0684ce7d59067a3de3324acbb69a99d4f6ada52216f2199a97             3531 Packages.zst
- 633c056d10a936adc0afe7b38d7827e6b08876d786dd70320d799d17fca2cba7e83ff1e99d49b26e28f5766ab3bd256f0a71635b46f8325a73407cbc1ba05e9a              208 Release
+ 5842f79d8feacb2f4276f7e90976c1b8466b06e2e90cb95e8fd180fb64dec5b59d49d59a19dfbfa6dd2303f4b04969a25d5b7cb523a6f7538d949a8b59391cda              208 Release
