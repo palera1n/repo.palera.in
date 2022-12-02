@@ -167,37 +167,44 @@ Description: Interpreted, interactive, object-oriented programming language.
  Installing pip from the command line can be done with the `sudo python -m ensurepip` command.
  After installing pip, place an SDK for your platform in /usr/share/SDKs. (e.g. /usr/share/SDKs/iPhoneOS.sdk)
 
-Package: sudoworking
+Package: system-cmds
 Architecture: iphoneos-arm64
-Version: 1.0
-Maintainer: Mineek <mineek@mineek.nl>
-Filename: ./pool/sudoworking_1.0-0_iphoneos-arm64.deb
-Size: 5216
-MD5sum: bdb35c8dc00938705a85d536f608fba5
-SHA1: 1efd7b607e11f8fbe4fe10453685047e5d1e778e
-SHA256: b331f3d8ef1a835a8bc38b08a0724ff867525ceed27c9be5df6aadb1c75833ae
-SHA512: ee4383043299a28f00296e0bebf9119f8042c6c740b7f54bfa93bae44fc24d008d6ad34b62ac3ffec8ed669bc372648e538f44750ca71b63a322122230d730ec
-Description: sudo using posix_spawn instead of setuid
+Version: 950
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Nick Chan <towinchenmi@gmail.com>
+Installed-Size: 2832
+Provides: login, passwd, reboot
+Depends: libiosexec1 (>= 1.2.2), file-cmds, libcrypt2, libpam2
+Recommends: vi
+Filename: ./pool/system-cmds_950_iphoneos-arm64.deb
+Size: 332890
+MD5sum: b48b067912a54b1e689482508fd9e082
+SHA1: dcf10a3c32b4dd22e194d148388f7597b4fd8954
+SHA256: 4263bf8f32e65136ed40f4bfce55ad0cc5e743a85633e88848cdf9b264d39ec7
+SHA512: ce63ad9c83ffcd766ac13d19a171e845b3227e0abc1d18e319e44e83c3856b1ea28c6196bfb36ce62e1a08e3f128627049990e352b07428fb4893bedc36d264f
+Description: iostat, login, passwd, sync, sysctl, pw
 
-Package: ws.hbang.newterm3
+Package: ws.hbang.newterm2
 Architecture: iphoneos-arm64
-Version: 3.0b1
+Version: 2.99
 Section: Terminal Support
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 5816
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds
-Recommends: iterm2-shell-integration
-Conflicts: ws.hbang.newterm2, ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm2, ws.hbang.newterm, com.lint.ntarrows
-Filename: ./pool/ws.hbang.newterm3_3.0b1_iphoneos-arm64.deb
-Size: 2180662
-MD5sum: 9eac366ff713a41f19fb6cc2b70bb254
-SHA1: bb94048a68236bacb4c880b1f9e88c3e9855055b
-SHA256: 41c06918dca22107661182d4964ab0e1ab8bec5d4f9bc312b22d1be3793997fe
-SHA512: bb240612285d96787b44c2129fb908c4cd01fa066fad999232272e5a5080db4ba801d8cedb3b9f09e8a9fdedb2d4c6b7146b43f1f5d6a2603e93bbf536ec5536
+Installed-Size: 1520
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds (>= 880.60.2)
+Recommends: iterm2-shell-integration, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/ws.hbang.newterm2_2.99_iphoneos-arm64.deb
+Size: 505878
+MD5sum: b861d16ef57cc92c281c910b9cc60195
+SHA1: d52a49d100e853ab88ff2cf49280aff59b89a156
+SHA256: 88e1626eaa22797b25d836cdc97880d4f6bcef55a62d4ddd6f90028d11e75a82
+SHA512: 6ab5195f6452dcc92a46cf7117e1ee36a42604c66d4e0963323f9e1d7bf1b7fdd39fc5b3bef5867bbbcaf3eefeb662d29bec535393fc90d9779d93803e52918a
 Description: A powerful terminal app for iOS
 Tag: compatible_min::ios10.0
-Name: NewTerm 3
+Name: NewTerm 2
 Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm
