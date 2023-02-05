@@ -23,7 +23,7 @@ apt-ftparchive \
     -o APT::FTPArchive::Release::Suite="stable" \
     -o APT::FTPArchive::Release::Version="1.0" \
     -o APT::FTPArchive::Release::Codename="palera1n-repo" \
-    -o APT::FTPArchive::Release::Architectures="iphoneos-arm64" \
+    -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64" \
     -o APT::FTPArchive::Release::Components="main" \
     -o APT::FTPArchive::Release::Description="palera1n's official repo" \
     release $OUTPUT_DIR > $OUTPUT_DIR/Release
