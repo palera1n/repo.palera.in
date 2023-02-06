@@ -166,30 +166,6 @@ Description: ElleKit tweak injection libraries and loaderInstalled-Size: 1716
 Name: ElleKit (Beta)
 Author: Evelyn
 
-Package: ellekit
-Architecture: iphoneos-arm64
-Version: 0.2
-Priority: optional
-Section: Tweak Injection
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1432
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Depends: libiosexec1 (>= 1.2.2)
-Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: ./pool/iphoneos-arm64/ellekit_0.2_iphoneos-arm64.deb
-Size: 222974
-MD5sum: 645f146ff9dba9f342a00edda0ef0baf
-SHA1: 4584405eff51ae825aa386fc16f5e4bf79e4c36c
-SHA256: cc82ecc9005a3e33a24ce27c16acd7a50c8cbd02c11c35355548a81082a6b6f7
-SHA512: 675177765e7eb733f12808fb7385a3a5f541267b1b310af944c3171cf7576230f594907893e1bc2aa0cc6de15cb6502059ec2ef2a1b7e6a18de8ba012dddf80b
-Description: ElleKit tweak injection libraries and loader
- Currently NO SAFE MODE INCLUDED! Install at your own risk!
- ElleKit tweak injection libraries and loader. Currently in beta,
- does not currently include a LaunchDaemon.
-Name: ElleKit (Beta)
-Author: Evelyn
-
 Package: preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.2.6-7+debug
