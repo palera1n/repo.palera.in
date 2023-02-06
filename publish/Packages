@@ -55,6 +55,27 @@ Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA1: c1d547036234756c5e75a633393d4ffa791b1126
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -232,6 +253,27 @@ SHA1: e7e708d1ac170daf451b382fb97f7de8af2036e3
 SHA256: 451f239ce64bb4afac7f4c69860755219d03aa3c15d5a8dc39df7cba8c1a6dda
 SHA512: 7e788da6f6bb210895a0254d15dafb9f53aa0071db283a45426084eace2b8f0098d572dc0571fe2f93b0ee15a17b745636457b9db817a34b7a0dc7cdc3b6178e
 Description: secure shell client and server (metapackage)
+
+Package: preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.2.6-7+debug
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
+Size: 222828
+MD5sum: e8b2d84ec07797f5e5fc7339a24d1f4a
+SHA1: e01f91a436936962cd60c09a8037eaa95708d936
+SHA256: c577ac0f34302a625c42cc73e52492bdc462a705fcd0ec93f5d269a11b93d132
+SHA512: 8b8d2302f486087bb47aa07393608d3ddcba9761ee34c640e6997f35653ad15ce05d74ba5f31fa386d4916cf3dd4bd7dd5ec45b49cbdfe905de527ca8cee834e
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 
 Package: python3.9
 Architecture: iphoneos-arm64
