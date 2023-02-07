@@ -100,6 +100,23 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit (Beta)
 Author: Evelyn
 
+Package: me.nebula.filzafixer
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Utilities
+Maintainer: Nebula <me@itsnebula.net>
+Depends: ldid
+Filename: ./pool/iphoneos-arm/me.nebula.filzafixer_1.0_iphoneos-arm.deb
+Size: 832
+MD5sum: 81c799289b8ed794b018df80bc8d6f62
+SHA1: c9723007fa5a3a424d3443161b94efc2da99d568
+SHA256: 592f4d0dc74deafe5bef7223bc3360329734105a0a41f584a81efb1f2f6eb5d7
+SHA512: 963ca950d07e5335a8b93e3a9a8d3d9cdb8455858e28e80b14a9ad8f517bc719748d2fb3a57d152c2cd8b95007239e1827fc4d154e43ac4a26666f0ac855b1e6
+Description: Fixes Filza, so it opens and dpkg doesn't complain. Make sure it's installed before installing this.
+Name: FilzaFixer
+Author: Nebula <me@itsnebula.net>
+Icon: http://www.tigisoftware.com/cydia/CydiaIcon.png
+
 Package: org.swift.libswift
 Architecture: iphoneos-arm
 Version: 5.0-electra2
@@ -139,6 +156,29 @@ Name: PreferenceLoader
 Author: Sam Bingner <maintainer@sbdhi.com>
 dev: dustinhowett
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: ws.hbang.newterm2
+Architecture: iphoneos-arm
+Version: 2.5-100
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8, system-cmds (>= 880.60.2)
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/iphoneos-arm/ws.hbang.newterm2_2.5-100.deb
+Size: 2147050
+MD5sum: 0c09dd7d1d9f1cc522ca56158aecad83
+SHA1: 571751464d1bb14e61e8c31ac42c3647e937f831
+SHA256: bcdd43be87bc94aadee6841cfaa590fdeca4dee596d343496b2fdcde3e7845f6
+SHA512: ac66043683d3e9a8ec4f7bd62716127c06d0c4359cb9de4ae8f08bfdc22796522d32a3de783f3ca88afdcea161f6a10ab9864287723ddb517df931d4b0604f5d
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Name: NewTerm 2
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
 
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
