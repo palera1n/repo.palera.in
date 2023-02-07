@@ -4,61 +4,61 @@ Hash: SHA512
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: palera1n-repo
 Components: main
-Date: Tue, 07 Feb 2023 02:05:39 +0000
+Date: Tue, 07 Feb 2023 17:42:21 +0000
 Description: palera1n's official repo
 Label: palera1n
 Origin: palera1n
 Suite: stable
 Version: 1.0
 MD5Sum:
- 5dc15566ec685971da52730854d5e498            14449 Packages
- fb714192f8995045712e6d41f1387e13             5299 Packages.bz2
- ed5858bb118008f571b1b2ca59d3f680             5293 Packages.gz
- 2ce3b892cf41ad7993cb256d21a51ff4             7529 Packages.lz4
- 4b9037f97875b4c44469d47046dd163c             4984 Packages.lzma
- dc3390a44e51ed8a193e7a695a75f344             5032 Packages.xz
- 7e4f6acfa9ccf82ff0c2a913a1763bb1             5105 Packages.zst
- e0da12ee94d64dfbb263e55fb82e35a0              220 Release
+ e3386e353a10864541e2abcd022cfab5            14440 Packages
+ 1364b325e577b441f475d1135fd16866             5300 Packages.bz2
+ b21fee92d7b372a861353cf273942181             5281 Packages.gz
+ f56e6f16542d7bf50c5e2e9c1755b425             7530 Packages.lz4
+ 21c5098a9071520869f4e0ef330dca3d             4974 Packages.lzma
+ bc341e33774fb06cd95b8e4f5dc556f7             5020 Packages.xz
+ c8a334e8932a2faccf92a55cf4ce6c3b             5095 Packages.zst
+ ad82b0bd4c71a4c6e67fa639b20f497a              220 Release
 SHA1:
- fa38dfd120b28fd555d91e9e9a390a2658a75dc0            14449 Packages
- c2948b29e76c61b994e7633ec0d30c48d4e73278             5299 Packages.bz2
- b341f31ebe3030ac6d5b9c98a62b495288b22414             5293 Packages.gz
- 50a2520259d192d1fdf0f118faae06c658fe1b06             7529 Packages.lz4
- 47235a18868c071bcad9895d49ff0e45f2c95b95             4984 Packages.lzma
- ace9575ddf851e9365288036419260c0e0425751             5032 Packages.xz
- 1b1a278068c244dee8291acc0614bcbf8c35832d             5105 Packages.zst
- 7d207adb480478b750af7863518c4c01e5a75ced              220 Release
+ 3bddc33d93c85a6c953e40ff99b46a0d77d58574            14440 Packages
+ 7f2a806ba7b23843b0d0665c2e41ef2a93ec1223             5300 Packages.bz2
+ 493bb36a8709366f2a3891ea7888aaacf6621057             5281 Packages.gz
+ 961fab7a83a6207087086451dfdc46a10378d0c9             7530 Packages.lz4
+ 865b2586c32c64ef2f41b4720c7dea42c5029b89             4974 Packages.lzma
+ 01d39cdf346028434ccf8e03173913231652a7c1             5020 Packages.xz
+ dbfe7f83f1e930f897bde00e3be44bd85c37ed15             5095 Packages.zst
+ e79eeb00355233df75998a6135d9fe0b0aff1852              220 Release
 SHA256:
- ed523ccda75719cfc3572ccb27965cc7f8f6f793815ce0b44dbfaefc6424b401            14449 Packages
- 649645a6f97cf5a940b7b3dc4c5a7418cfe01b395aa035c61f95c1d2fbb57be3             5299 Packages.bz2
- 844cd3ad6ba11e130e10d8ead790ab78cdad3dcf7ad2d3d99c23e7192520b641             5293 Packages.gz
- 47a4d4764f179d99ef1fcc00d0e60108d03ae535849c4de7433309a8e28e5186             7529 Packages.lz4
- 36ef3d390e010705cbd18ba20b4917dea23ecc1cf574b7a730218a7481eb4ab5             4984 Packages.lzma
- 524cbe06957afbdf2685666b46622b8bc5513e532c5888eca65ea3cf4e2de88e             5032 Packages.xz
- 77b3dded69ae85651a182d00a52572895ccda1ffef92599aa3c97d539d758f27             5105 Packages.zst
- 2ecf92e90d68e212f3fcbbd148945fb386500d91daaa0e2522b54561dd1cc3d0              220 Release
+ 88ba978bd1b6e6e94659ed37e04013ad4719520cab0453e4d29989843666e185            14440 Packages
+ 621940b1bbf803e1b4ea8404f6d89f63c01e835822745a0c524510d485d59db8             5300 Packages.bz2
+ aaa41ea7101bfdad4852a4f1757a83646a58be296c49c168db6526c24724843a             5281 Packages.gz
+ d5f2cf28c891e6c43fad4e5e45350742318784ec18d2892117efc2ff056fc1dd             7530 Packages.lz4
+ 92556178f57591bdf2cf53b8c5837b94dab1e3eda4064e0677f9ae1692520d9c             4974 Packages.lzma
+ 14798e26de951e74bef44d1dfe080c92e98fe1078fd655aab26398b15f430607             5020 Packages.xz
+ 4e1ef16d0fde309f262fc0a8153e8332b5f5e9942eebff4b64469a6d1c0cac5a             5095 Packages.zst
+ e4164cb6d974c179269a173038c9f3eb196dee82c52397e0b927c7b19df934ca              220 Release
 SHA512:
- 4b31c6af393ee0f28a032b4c24f3a49672a81885db3b14d22b4478daea3c75013320e3cdb4ef7d0de9fef07b325a6d78ce44f9fb735d8c3b0853c29d5b3968b3            14449 Packages
- 557a6a9eb5535048d000a90ccfa26f2a59fea2c76382fdaa636118b70cb69fbfc17e1b4e10e70d3927cebad00f219b0f3b156365fe4749bd4a38a75fc65e7036             5299 Packages.bz2
- ef7ddbcdd3002c8b823c2c15e5c83ddec6a1fc5403604b3b6f8a7d31357cb109e780e7d2211db1d7d119cea35b14e4580efcb6946fd89c938633748fd0bc857c             5293 Packages.gz
- a8634f44fad187365681edefd942be6503eb9dd6389106a420c1ab2f26c0d429f4ad64f56395cd958dd22b4173aeda5fdd65ec9b3aeac1d83732e50ff0a71430             7529 Packages.lz4
- 7a84173dccdd2eddf4bf0f80c4b28356232099c44b29a131edce10fa80dce470972a18c11ce7255eb8e32fa81ab1e7cead483dd0f3878a4ae2a758bfb09e791b             4984 Packages.lzma
- fdfa4019ca488ffdb114ecc50a3ef25832aa01e3482199a15b90123c27eaa1f3f27b24fefd4d63b80cd2d2b0d8d69f67153af83bbdd9cf7d6cf8b24b615c9049             5032 Packages.xz
- 68257757f41ad1143626ef743085733e283f64c907240ced63084b164fc379f8ab2cef848bd3622664d27aea1a919c9beba4b69ff479d62f26f8ce7384320e8f             5105 Packages.zst
- d3244502ecab24571fbdacaaa75c9c760e528879d74690be6f038b3319813fdee4e45e5545ed295351dc1ccd0a652474a778ba19a1cae368830a47003bd364a8              220 Release
+ a7383c2c56682349fb908b88db5ed20275a478fd4c725107f825535651e48e403d83dfc4d6466f471efd15bc4b0cad9cee5e519007370b4dc918379fb5ef2ef1            14440 Packages
+ 3cdfa67752d1434fc0af00f97f3e2664ef9e397099f8265d1b00d90d3ca566b639e9637c08e78db3e830bf8b0808d7e7f69ff16bdad5398da0606fcaae225faa             5300 Packages.bz2
+ 86a1893773cde8bc22c03f666dc965eb9c4c3b83d69a83e532f37016eb44462b0d899d51541a83024784e6ba087e532717cb44fe50e55f421a8d915912a30f4e             5281 Packages.gz
+ 48cc515958d722343271af602d7fb09d1966ad6f51b66b47cad3f15c5d760257236c79da3e695d7e1125165562a3c367c3634c4c7cc66c8471ef70cc3747beb5             7530 Packages.lz4
+ 3766a6a62107bf9412d6b5a0c531f3877536ef855b5d56d709ed98695fd66dc08a786a4c3f5bb4ed06ac34724214f9fc73a2b4292b720fb00132e2b207e8b0d3             4974 Packages.lzma
+ 0afeef9229353d6e6688e70720b73f1d782e7ee4ee318e59cd718913c0a622e012cd5f6cbf32ecb525ef6daa31958f57506fb266aa4954c4017e5cc9cc8d6bec             5020 Packages.xz
+ a1bac1e9ed293b2027da46b192eb1cf2194c0b9f505d0eaa2c588420f6d02539bd6c7959b3772f6556f8af7001e8cabdd3fec46b30d2fb3dde4b7b263483bde6             5095 Packages.zst
+ 16c48b51f7bb897fbe4be440cab5f6a4d15c0ff250d28154b365b58faa92a071cf1f253988dadb38801a802df71e9b82acd89354755dab08e1609bc55e0a3ac0              220 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE+wT2yOxW2jLzMAjFPRsopfrMtTsFAmPhsfQACgkQPRsopfrM
-tTt/6Q//eFLsiyh8I9HrmLLUPOMAYOb2ulSNeWwslTkyiS3XgRi3nv2TpbSmXKGa
-3WahN32QUNiO3NyF44NjigriJJKL1NtnqBWWJdoIl7kOoTiysr//mTj3ut+SLGXr
-hdw+3pgQULw5GZkJO53k5zSY6lMpVtrs//O8ncUi2a+4K+FsI1AgEx+Uk8Eo/qkv
-exymR7bCMHZjaNjSWEv5rA7AInJAKPe0EnNaql/lwFc/rlHlBVw+ZQKKsUtpVfor
-Bj8xoEbnFo1JrVfpjva1lAV2R3f2zROtGrGOSyvMnN3oXPkXEJm09MCci2G29CJ/
-XGnIpSeXJ6JRU40lNmF4GxG7dbWjMtHeDsRXNkMB3elB1/ioHTbP2D+LEybBYwRM
-v60ijmwYLCiQifbXda+oYvNl8Mrb7cjeHT48rLseF1fl8LTVMSs+WRDfMZBHI2PP
-eRgGKGy2rOlYra+xSCR+aXWKboJCDt3S0qMoN7VD5c47ACckLqBnZONAlmdLJZVT
-bwRuGFDH8ELY3mplyo2ToDvByJjatKO2PtBhJI2yX02aoFmK99W8k86mN0TR3yjk
-za/hY+pa2M2c7rIbzsphlIpEt88KM6qr8ts/v8a9lqMA8xNDXvD5lF7zZFl3A1nT
-GoWEj8e3l71O2KNBihjmIDZHXLPriQndWGIEjoFxhVBdLpZCPWU=
-=fmst
+iQIzBAEBCgAdFiEE+wT2yOxW2jLzMAjFPRsopfrMtTsFAmPijX4ACgkQPRsopfrM
+tTuj1A//TUiEPY3vnZCyF04Kb/+ET07hcdQQlagh4j0jPaKnX3uInAZZePsmWaVm
+QZjobEYgCd06dfkH7uOkiHwbM6mMyeEFY3IuVvJ9KGvyX7iWlUgkz1+CXchO/USc
+UheKzm5P5p26NwF1J2fr7qL4dBpIfSsPUri4s9CyaWdswMlB6LMSKI2t4E4lyTyN
+o5T9EwgBeNqNtMFXTNUSmvxn2qDVOtHaFG/izQo8rk5toAjheAgL0qIS+RuOu1T4
+C628XSuPNSJyEdKURouNGOPuKTAuzlpfvS0uS8e3D4UuEKgXFUTX3ek5+o5bRbhM
+hOCsHAgnl71Os1HkxLiQDRr68Z/BvRL9WQbroynFM7CyKMBVQhDjNZKIKt3nQL83
+RBN1vvRWBBCDJ8pBOsA8HsAgbcU/MaP5SyJT/Gt/1ma9V5/LaiHgZGoQ4HDsmR8y
+/0ZonHbfvBsRW2pvGN7pd4JCK5a/03VWu6cUOmyM3r97Hj14ysAj1w0xA9VsBuwO
+goGV8QSx1DljIou8rfXGPX4OLwK87jC5XdQBCDS7KozMiE1MrRJweRtx1n/yaq9m
+gv79wY4Nzbt3FScEd5vlVkY5rCWhqb5XZVutE5NsPZJH31fXPkDbWHYPu5gmc4uF
+4k0hssaXyQU1La0bnHC3yCoeyze4saiSJ/IXt8mXFddRPFChO+Q=
+=dEyb
 -----END PGP SIGNATURE-----

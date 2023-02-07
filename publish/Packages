@@ -256,17 +256,17 @@ Author: Evelyn
 
 Package: preferenceloader
 Architecture: iphoneos-arm64
-Version: 2.2.6-7+debug
+Version: 2.2.6
 Section: System
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 216
+Installed-Size: 180
 Depends: mobilesubstrate
 Filename: ./pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
-Size: 222828
-MD5sum: e8b2d84ec07797f5e5fc7339a24d1f4a
-SHA1: e01f91a436936962cd60c09a8037eaa95708d936
-SHA256: c577ac0f34302a625c42cc73e52492bdc462a705fcd0ec93f5d269a11b93d132
-SHA512: 8b8d2302f486087bb47aa07393608d3ddcba9761ee34c640e6997f35653ad15ce05d74ba5f31fa386d4916cf3dd4bd7dd5ec45b49cbdfe905de527ca8cee834e
+Size: 11042
+MD5sum: 69cb2db3022a09fd024d9ea581bd147e
+SHA1: ae78786b17e9097f49fa977d82b4771d9cfd8571
+SHA256: 7be7f1e9ba9de8445d9cae0c068864a69423dfdd6135a0ba7a76a443e7aebce1
+SHA512: 1109d4bcb938a2dd3055f5992907c0cc96b008c1084c1aa379b740094dbae3274aa7c96ea730dd74d8d9ab557e1887ee393eb1bc0bace1b236faa6b998e1ba5e
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
 Tag: role::hacker, purpose::library
