@@ -187,6 +187,20 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 dev: dustinhowett
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 
+Package: red.charlotte.cocha
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Charlotte
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/red.charlotte.cocha_0.0.1_iphoneos-arm64.deb
+Size: 80544
+MD5sum: 42bfe1d8ab55fd9ebe90bafebdea3028
+SHA1: 4a0b5d444dbb866aca32777420d491d1597428f8
+SHA256: 3a441848e0d4c9dc2ed3cd2905d00c2981e5bb22ede03f275451372ee691b023
+SHA512: 821ecbaf0b079acaa87758043e1c6e93097a29b57060fff82c808ad49fa61ab11f5df94bddc0f73b23cf2a72c5f7da04183e9c625e3a0c136e1d65248edb4858
+Author: Charlotte
+Name: Cocha
+
 Package: ws.hbang.newterm2
 Architecture: iphoneos-arm64
 Version: 2.99
