@@ -34,6 +34,29 @@ Icon: https://cdn.discordapp.com/attachments/1028398976640229380/105153759804628
 
 Package: com.ex.substitute
 Architecture: iphoneos-arm
+Version: 2.3.1+9.g200ddd5
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 27268
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.ex.substitute_2.3.1+9.g200ddd5_iphoneos-arm.deb
+Size: 7396812
+MD5sum: ef2b8cf4435eac40f44408c83c4a59b2
+SHA1: cb96e43bf91981bcbb5c5fae8e180b23ca7e94f7
+SHA256: 81a8ab27075317e42d9f34d32bfe772b0a6df1c317f64dd03c44c0dc11e2d70f
+SHA512: 43505f625b152009f0f2d1fc90e3e4af60a0defb2b894b52785cabb71967d36f20d839f606f09dd73014e91e34278e740457c3aa7d8d5398951feed1025c3e01
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.substitute
+Architecture: iphoneos-arm
 Version: 2.3.1
 Priority: optional
 Section: System
