@@ -99,30 +99,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
-Package: ellekit
-Architecture: iphoneos-arm
-Version: 0.2
-Priority: optional
-Section: Tweak Injection
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1452
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Depends: libiosexec1 (>= 1.2.2)
-Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: ./pool/iphoneos-arm/ellekit_0.2_iphoneos-arm.deb
-Size: 223678
-MD5sum: ace3148a8080dd5797a731564cb42598
-SHA1: 93ae731f30811d91d766a62d5d8a55d2a2dc5abb
-SHA256: edad150901c2967fc25b9bb6b64361fdd8601389f3d2d6ca31ad556adf3f6c41
-SHA512: b09da84ac8e52b1bcb38f25a67982dd829bcad4d6f1dfafe8fa8150aafada81a6e3ce8637d1297cc30bd7a65a274e805c05cdf4a76447c58d938b5b2e7f36383
-Description: ElleKit tweak injection libraries and loader
- Currently NO SAFE MODE INCLUDED! Install at your own risk!
- ElleKit tweak injection libraries and loader. Currently in beta,
- does not currently include a LaunchDaemon.
-Name: ElleKit (Beta)
-Author: Evelyn
-
 Package: me.nebula.filzafixer
 Architecture: iphoneos-arm
 Version: 1.0
