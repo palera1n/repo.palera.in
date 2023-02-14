@@ -99,6 +99,25 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
+Package: me.alexia.rocketbootstrapfix
+Architecture: iphoneos-arm
+Version: 0.1.2
+Section: System
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 0
+Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1), coreutils, ldid (>= 2.1.5-procursus7)
+Filename: ./pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.2_iphoneos-arm.deb
+Size: 1648
+MD5sum: 6071908a998e5b45495a40783c1e2b6c
+SHA1: cccec061bb7e346c8cd9308acc0f8f0b7f777ab1
+SHA256: 65d585ffc7c508c5778cd619c902ed619f8d5ce17e5dd01fba357cd51ba24c70
+SHA512: 0e03cd8cf42a72ab0430d0234dcc2158f1fda1210cc1496be28977ac9b7f32eb7bea9b4d509dca07d80ea2bf8cd8f451b0243b3cb525f76b1e79bcc3b0a39940
+Description: Fix RocketBootstrap on iOS 15+
+Name: RocketBootstrapFix
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/me.alexia.rocketbootstrapfix
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/me.alexia.rocketbootstrapfix.json
+
 Package: me.nebula.filzafixer
 Architecture: iphoneos-arm
 Version: 1.0
@@ -115,6 +134,24 @@ Description: Fixes Filza, so it opens and dpkg doesn't complain. Make sure it's 
 Name: FilzaFixer
 Author: Nebula <me@itsnebula.net>
 Icon: http://www.tigisoftware.com/cydia/CydiaIcon.png
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 188
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.1.deb
+Size: 14460
+MD5sum: 123318dbd6f8890854ba124790909ad1
+SHA1: 7b8cae0e6bc02e4aa5cb3a8dfc0343ed2b127f3e
+SHA256: 3f0afb850d283db4bb4e2699bf25411402aec3c429beb9d90a71be15c4cc656b
+SHA512: 3bda2357608604295c3baaf4631e5b0af7f942506f391cb2b56b782e3f083f59330224f5d77b171a9725977970fa95d565bb2e16341a9f4c9923ae03707de7dc
+Description: Fake passcode for checkra1n/palera1n on A10/A11 iOS 14+
+Name: FakePass
+Author: alexia <me@alexia.lol>
 
 Package: org.swift.libswift
 Architecture: iphoneos-arm
