@@ -1,3 +1,24 @@
+Package: applist
+Architecture: iphoneos-arm
+Version: 1.5.16-palera1n1
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./pool/iphoneos-arm/applist_1.5.16-palera1n1_iphoneos-arm.deb
+Size: 105400
+MD5sum: af88067deb4da0b53cbe308ae2478ea5
+SHA1: 51c197fc20e6991138e54c2d91a8f9bf9d7d055e
+SHA256: c7f5aac3baea94709eb8bcd825790b37e9bd6124ba2c4d0ff501d6d5bb0904b8
+SHA512: 113be22fadce6137f3c3be210e7331080b290312600cb74ff06f89af01131d30863dd71518a484e0512b3bcc56c8257ba5dfa4a75df0ca2da7e9ff541178cf11
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
 Package: autosign
 Architecture: iphoneos-arm
 Version: 1.0.1
