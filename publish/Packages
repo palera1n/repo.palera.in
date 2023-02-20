@@ -307,25 +307,27 @@ Author: Evelyn
 
 Package: ellekit
 Architecture: iphoneos-arm64
-Version: 0.2
+Version: 0.2~22.b452d0c
 Priority: optional
 Section: Tweak Injection
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1452
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 1704
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Depends: libiosexec1 (>= 1.2.2)
-Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: ./pool/iphoneos-arm64/ellekit_0.2_iphoneos-arm64.deb
-Size: 223612
-MD5sum: 64bd0e8ff8fa55dcb6d7cfafb6da4179
-SHA1: 03dc4480bddbb3cb646fd9d92cd2b6dae1a668b3
-SHA256: 5cdc2ebb1bc337aeb3557b88ade8ee69cead69f19b86a8f765431139dd8fe08c
-SHA512: 0cc009cc6ea02ea32fdf985ea3aee74cd973db657a8f44119180ef11bbcef67042f8163c678039afec0b32edf3b1aa3a46733d8881a85e3c59a2f880c57044e6
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Filename: ./pool/iphoneos-arm64/ellekit_0.2.22.b452d0c_iphoneos-arm64.deb
+Size: 530180
+MD5sum: 64dcfc93641b76fc30247c9a60cceb18
+SHA1: 1b358880ea06f10c206e3b149c69132bb9afad02
+SHA256: af41757807f1cebe8496fc708c49a1c950360f4d63588fdbeb36f2b30fe87a08
+SHA512: 4278679ad3009079d7c94d614df7bb3fead7f31e3fe8b1d0813dff89cb1c56ced0c561241b1b6385ad4a112d2f30f292665feacc042442962050f2e56677a6ad
 Description: ElleKit tweak injection libraries and loader
  Currently NO SAFE MODE INCLUDED! Install at your own risk!
  ElleKit tweak injection libraries and loader. Currently in beta,
  does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
 Name: ElleKit (Beta)
 Author: Evelyn
 
