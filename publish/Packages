@@ -122,17 +122,17 @@ Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
 Package: me.alexia.rocketbootstrapfix
 Architecture: iphoneos-arm
-Version: 0.1.2
+Version: 0.1.3
 Section: System
 Maintainer: alexia <me@alexia.lol>
 Installed-Size: 0
-Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1), coreutils, ldid (>= 2.1.5-procursus7)
-Filename: ./pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.2_iphoneos-arm.deb
-Size: 1648
-MD5sum: 6071908a998e5b45495a40783c1e2b6c
-SHA1: cccec061bb7e346c8cd9308acc0f8f0b7f777ab1
-SHA256: 65d585ffc7c508c5778cd619c902ed619f8d5ce17e5dd01fba357cd51ba24c70
-SHA512: 0e03cd8cf42a72ab0430d0234dcc2158f1fda1210cc1496be28977ac9b7f32eb7bea9b4d509dca07d80ea2bf8cd8f451b0243b3cb525f76b1e79bcc3b0a39940
+Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1) | com.rpetrich.rocketbootstrap (= 1.0.10~beta1-palera1n1), coreutils, ldid (>= 2.1.5-procursus7)
+Filename: ./pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.3_iphoneos-arm.deb
+Size: 1668
+MD5sum: 809b05f89088762de6c3eae5f3c6225b
+SHA1: 37567d60d0c8d82e58d65618548a3baf4d7bbbcd
+SHA256: e8b64e9866edaea6fd90caf1e1b0836b3928e516374415cc4394b8e1a30d4f85
+SHA512: cb8d1142fc3601ba87f1fc15119f126e5981a41a7cd1e0d643c3f837dbdede7d4eab33d9e611d537aa54083f44abcc7130f357abd6c53493dcd3e8496f13585c
 Description: Fix RocketBootstrap on iOS 15+
 Name: RocketBootstrapFix
 Author: alexia <me@alexia.lol>
@@ -390,3 +390,23 @@ Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm
 Support: https://hashbang.productions/support/
 
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 15.0) | me.alexia.rocketbootstrapfix
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1-palera1n1
+Installed-Size: 596
+Filename: https://rpetri.ch/repo/debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+Size: 38344
