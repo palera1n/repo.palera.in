@@ -403,7 +403,7 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Section: Tweaks
 dev: rpetrich
 Tag: purpose::extension, role::developer
-Version: 1.0.10~beta1-palera1n1
+Version: 1.0.10~beta1
 Installed-Size: 596
 Filename: https://rpetri.ch/repo/debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
 MD5sum: b52417e29631c59cdb267379e71e2a69
