@@ -139,23 +139,6 @@ Author: alexia <me@alexia.lol>
 Depiction: https://repo.alexia.lol/depictions/me.alexia.rocketbootstrapfix
 SileoDepiction: https://repo.alexia.lol/sileo-depictions/me.alexia.rocketbootstrapfix.json
 
-Package: me.nebula.filzafixer
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Utilities
-Maintainer: Nebula <me@itsnebula.net>
-Depends: ldid
-Filename: ./pool/iphoneos-arm/me.nebula.filzafixer_1.0_iphoneos-arm.deb
-Size: 832
-MD5sum: 81c799289b8ed794b018df80bc8d6f62
-SHA1: c9723007fa5a3a424d3443161b94efc2da99d568
-SHA256: 592f4d0dc74deafe5bef7223bc3360329734105a0a41f584a81efb1f2f6eb5d7
-SHA512: 963ca950d07e5335a8b93e3a9a8d3d9cdb8455858e28e80b14a9ad8f517bc719748d2fb3a57d152c2cd8b95007239e1827fc4d154e43ac4a26666f0ac855b1e6
-Description: Fixes Filza, so it opens and dpkg doesn't complain. Make sure it's installed before installing this.
-Name: FilzaFixer
-Author: Nebula <me@itsnebula.net>
-Icon: http://www.tigisoftware.com/cydia/CydiaIcon.png
-
 Package: net.cadoth.fakepass
 Architecture: iphoneos-arm
 Version: 0.1.1
@@ -426,3 +409,22 @@ MD5sum: b52417e29631c59cdb267379e71e2a69
 SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
 SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
 Size: 38344
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager (64-bit only)
+Version: 4.0.0-6
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 23200
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Provides: com.tigisoftware.filza (= 4.0.0-6)
+Filename: https://tigisoftware.com/repo/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
+Size: 8700444
+MD5sum: 023705537cb119fd58564b5918ed5cc8
+SHA1: 7c3d8234fa820d3a5f17e52dba8c8ed4596547ab
+SHA256: 1dbe2b7ff2d9463bc92454b3ad3159fc2d3b1ab8dee9f40844d719c3d7c73397
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
