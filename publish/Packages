@@ -389,6 +389,7 @@ Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm
 Support: https://hashbang.productions/support/
 
+
 Package: com.rpetrich.rocketbootstrap
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 15.0) | me.alexia.rocketbootstrapfix
 Name: RocketBootstrap
