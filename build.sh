@@ -9,7 +9,7 @@ mkdir -p $OUTPUT_DIR
 
 echo "[*] Generating Packages..."
 apt-ftparchive packages ./pool > $OUTPUT_DIR/Packages
-echo >> $OUTPUT_DIR/packages
+echo >> $OUTPUT_DIR/Packages
 cat extra_packages >> $OUTPUT_DIR/Packages
 zstd -q -c19 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.zst
 xz -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.xz
