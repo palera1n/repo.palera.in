@@ -120,6 +120,25 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
+Package: dev.theos.orion14
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 2720
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 14.0), firmware (<< 17.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Size: 818258
+MD5sum: 62cce576295c7d61cb2d389bd2e8695f
+SHA1: fb302d66705dc6361bb27f56c9883e915134b3a5
+SHA256: 9dcbbe88da91cac82641b0e046a03cc07f7f602981c54ad9fa7ebc0b74c9a993
+SHA512: 6de466a3a87cd8844dd84d6e2f01d4d2dd64215647428f40eebd4bec63cabef42e8408faa6d28fc6b7ca6863762955033611d641ff0dabe46dc3694b6c3c648c
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Name: Orion (iOS 14)
+Author: Theos Team <theos@kabiroberai.com>
+
 Package: me.alexia.rocketbootstrapfix
 Architecture: iphoneos-arm
 Version: 0.1.3
