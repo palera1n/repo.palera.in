@@ -214,6 +214,26 @@ Author: alexia <me@alexia.lol>
 Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
 SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
 
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.5
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 208
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.5_iphoneos-arm.deb
+Size: 14076
+MD5sum: 17b2c3a3a786f50ce0345f426b567e67
+SHA1: 25b0bff67556ed140f485e873869a315cd2178df
+SHA256: d9eff04e21427ec9fce615c2e6369849b5fe83d9673a376c4bd94b67f93bbe9a
+SHA512: db8cabc9d0d71cd811507601656162c6bd30301e7ac12dcaa19c67dcfc3d4863ddd768d57b0bff339195db0ccfdb903a41435aedda16a4bcb895ffd7e4d93f9f
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
+
 Package: org.swift.libswift
 Architecture: iphoneos-arm
 Version: 5.0-electra2
@@ -276,6 +296,26 @@ Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm
 Support: https://hashbang.productions/support/
+
+Package: com.opa334.libsandy.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: System
+Maintainer: opa334
+Installed-Size: 496
+Provides: com.opa334.libsandy (= 1.0.4)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./pool/iphoneos-arm64/com.opa334.libsandy_1.0.4_iphoneos-arm64.deb
+Size: 24496
+MD5sum: 3af97628a496e44d00affd5ae7b3d004
+SHA1: 5a9ea1cc8a978ef89655c25dcfb66a34fb4d3169
+SHA256: f7fcffe9beb2e9080da70b157b994932f57581cb80704297ec5bee5b5af5f17e
+SHA512: 5c0f8a147c96211dabea8b6eaf813da65d34ca34eb1f82ebbfe4aa462f1b9a67df2c6673005e167cd280dcd9700a7465226fb807afcc05cf9bfc5c77333c3926
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy (rootless)
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
 
 Package: com.opa334.trollstorehelper.rootless
 Architecture: iphoneos-arm64
@@ -371,6 +411,27 @@ Description: ElleKit tweak injection libraries and loader
  supported by the developer.
 Name: ElleKit (Beta)
 Author: Evelyn
+
+Package: net.cadoth.fakepass.rootless
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 208
+Provides: net.cadoth.fakepass (= 0.1.5)
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm64/net.cadoth.fakepass_0.1.5_iphoneos-arm64.deb
+Size: 14216
+MD5sum: 6510b0e0f29287a936bb280c7968a5eb
+SHA1: 99fe05a64d3feebe25bca710619a7b66bc2de0dc
+SHA256: 0c924e2d0b2713a1c22c90870c837846a0546dd1b14bd83066025d85dd1d4935
+SHA512: 56cdb13eba662bda32a92490ac68f8b40985d514b325f371767f591bc3a36488890b983c28a59f86cd1a1170316b5a9a5481d0046554fac1c5d642763a85de32
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass (rootless)
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
 
 Package: preferenceloader.rootless
 Architecture: iphoneos-arm64
