@@ -194,6 +194,26 @@ Description: Fake passcode for checkra1n/palera1n on A10/A11 iOS 14+
 Name: FakePass
 Author: alexia <me@alexia.lol>
 
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.4
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 204
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.4_iphoneos-arm.deb
+Size: 13592
+MD5sum: bcc9c4378275c09dfc9dd5fdb92a38c3
+SHA1: 71d173325156b9a3a1a161fe62479681853c6bfd
+SHA256: c5a2b746e3062f1701ecabc19e7047c5679ff05c94a2277366e81cf9b539a184
+SHA512: 4db51360cb25c0b6feeb8716eaf4ecd91d7e675fd086ca0634afdd8fbff12744c4b238a697bde04f59da95fab33120ae12abcaeaa3938fa731cb53b103901222
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
+
 Package: org.swift.libswift
 Architecture: iphoneos-arm
 Version: 5.0-electra2
