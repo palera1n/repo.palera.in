@@ -5,7 +5,7 @@ Section: System
 Maintainer: opa334
 Installed-Size: 496
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: ./pool/iphoneos-arm64/com.opa334.libsandy_1.0.4_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/com.opa334.libsandy_1.0.4_iphoneos-arm64.deb
 Size: 24480
 MD5sum: 21a249a9ac8eaf0d97a57d2f54836650
 SHA1: a71d2ad0a6977d1d1830fb453c44e66d34ea4960
@@ -22,7 +22,7 @@ Architecture: iphoneos-arm64
 Version: 1.1.1
 Section: Applications
 Maintainer: opa334
-Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1.1_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1.1_iphoneos-arm64.deb
 Size: 206900
 MD5sum: bfc5a22ecbcb0de8e87c4c3e0d250493
 SHA1: f82cb0365b8858c6514b8041080f5663ad3ecfce
@@ -38,7 +38,7 @@ Version: 1.1
 Section: Applications
 Maintainer: opa334
 Installed-Size: 616
-Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1_iphoneos-arm64.deb
 Size: 206372
 MD5sum: 98bcd46dcc5164fb5201e5d459367158
 SHA1: 289dcd79d3e86d7d1b6d4b1bfbf6e9a070bc0470
@@ -54,7 +54,7 @@ Version: 1.5.1
 Section: Applications
 Maintainer: opa334
 Installed-Size: 600
-Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.5.1_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/com.opa334.trollstorehelper_1.5.1_iphoneos-arm64.deb
 Size: 218464
 MD5sum: 21bb42ba3ac525ec934842f2e31aed04
 SHA1: d28d7c382cba8a303a11079fe99db4b9a8621ab3
@@ -73,7 +73,7 @@ Maintainer: Mineek <mineek@mineek.nl>
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-logging
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-logging
-Filename: ./pool/iphoneos-arm64/ellekit_0.1.31_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/ellekit_0.1.31_iphoneos-arm64.deb
 Size: 251424
 MD5sum: 1547af620790d495d8b1154a4b1865fc
 SHA1: 51d3b8d32f451588c9eb309b565ddfb089bff8e2
@@ -93,7 +93,7 @@ Installed-Size: 1704
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
-Filename: ./pool/iphoneos-arm64/ellekit_0.2.22.b452d0c_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/ellekit_0.2.22.b452d0c_iphoneos-arm64.deb
 Size: 237008
 MD5sum: a2ea7c7c3fc1ae99dcce4862c9446759
 SHA1: 3f7a4c39a76822f54246305a54d86da4c17999e2
@@ -117,7 +117,7 @@ Maintainer: alexia <me@alexia.lol>
 Installed-Size: 208
 Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
-Filename: ./pool/iphoneos-arm64/net.cadoth.fakepass_0.1.5_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/net.cadoth.fakepass_0.1.5_iphoneos-arm64.deb
 Size: 14196
 MD5sum: c33b83533a7baf4002acbe429f521c5f
 SHA1: 9f210da716b9f13671741245c49ed81a061020c4
@@ -136,7 +136,7 @@ Section: System
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 180
 Depends: mobilesubstrate
-Filename: ./pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
 Size: 11144
 MD5sum: b3ba9336f5504974b600908a7bf4ef58
 SHA1: 935d37fe33334db61ea452f962c443582218d044
@@ -155,7 +155,7 @@ Architecture: iphoneos-arm64
 Version: 0.0.1
 Maintainer: Charlotte
 Depends: mobilesubstrate
-Filename: ./pool/iphoneos-arm64/red.charlotte.cocha_0.0.1_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/red.charlotte.cocha_0.0.1_iphoneos-arm64.deb
 Size: 44108
 MD5sum: 790fcc7cc56b7bb480de7ca89dfe9704
 SHA1: ab1a1b85f62aa8a89467be4f5cc6ded751fe570b
@@ -174,7 +174,7 @@ Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, core
 Recommends: iterm2-shell-integration, gettext-localizations | com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./pool/iphoneos-arm64/ws.hbang.newterm2_2.99_iphoneos-arm64.deb
+Filename: ../pool/iphoneos-arm64/ws.hbang.newterm2_2.99_iphoneos-arm64.deb
 Size: 455392
 MD5sum: 369ce0ab1a0300186a94e0d26261ec4a
 SHA1: 46131fac3be7bc8d8d5637f8d1b624566a1952a7

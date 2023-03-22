@@ -6,7 +6,7 @@ Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Installed-Size: 780
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: ./pool/iphoneos-arm/applist_1.5.16-palera1n1_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/applist_1.5.16-palera1n1_iphoneos-arm.deb
 Size: 105400
 MD5sum: af88067deb4da0b53cbe308ae2478ea5
 SHA1: 51c197fc20e6991138e54c2d91a8f9bf9d7d055e
@@ -25,7 +25,7 @@ Version: 1.0.1
 Section: Utilities
 Maintainer: Nebula <me@itsnebula.net>
 Depends: ldid, sed, file, mawk | gawk, firmware (>= 15.0)
-Filename: ./pool/iphoneos-arm/autosign_1.0.1_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/autosign_1.0.1_iphoneos-arm.deb
 Size: 1756
 MD5sum: 19f0f8083ef960015654b50e81fe9b5c
 SHA1: c46b3e3781bf9d462a74b8e3cf67a70e490372d4
@@ -42,7 +42,7 @@ Version: 1.0.2
 Section: Utilities
 Maintainer: Nebula <me@itsnebula.net>
 Depends: ldid, sed, file, mawk | gawk, firmware (>= 15.0)
-Filename: ./pool/iphoneos-arm/autosign_1.0.2_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/autosign_1.0.2_iphoneos-arm.deb
 Size: 1728
 MD5sum: 3e1eec23424fb89a8ff2162d569261fc
 SHA1: 1fecdf0da927a7a5555d9ec451af0d8e224c1fff
@@ -66,7 +66,7 @@ Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Filename: ./pool/iphoneos-arm/com.ex.substitute_2.3.1+9.g200ddd5_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/com.ex.substitute_2.3.1+9.g200ddd5_iphoneos-arm.deb
 Size: 7396812
 MD5sum: ef2b8cf4435eac40f44408c83c4a59b2
 SHA1: cb96e43bf91981bcbb5c5fae8e180b23ca7e94f7
@@ -89,7 +89,7 @@ Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Filename: ./pool/iphoneos-arm/com.ex.substitute_2.3.1_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/com.ex.substitute_2.3.1_iphoneos-arm.deb
 Size: 7442088
 MD5sum: dce90a30e8b20198762d81c5872ad1b3
 SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
@@ -109,7 +109,7 @@ Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.3367+38)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
-Filename: ./pool/iphoneos-arm/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
 Size: 22736
 MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
 SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
@@ -128,7 +128,7 @@ Maintainer: Theos Team <theos@kabiroberai.com>
 Installed-Size: 2720
 Provides: dev.theos.orion (= 1.0.0)
 Depends: firmware (>= 14.0), firmware (<< 17.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./pool/iphoneos-arm/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/dev.theos.orion14_1.0.0_iphoneos-arm.deb
 Size: 818258
 MD5sum: 62cce576295c7d61cb2d389bd2e8695f
 SHA1: fb302d66705dc6361bb27f56c9883e915134b3a5
@@ -146,7 +146,7 @@ Section: System
 Maintainer: alexia <me@alexia.lol>
 Installed-Size: 0
 Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1) | com.rpetrich.rocketbootstrap (= 1.0.10~beta1-palera1n1), coreutils, ldid (>= 2.1.5-procursus7)
-Filename: ./pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.3_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.3_iphoneos-arm.deb
 Size: 1668
 MD5sum: 809b05f89088762de6c3eae5f3c6225b
 SHA1: 37567d60d0c8d82e58d65618548a3baf4d7bbbcd
@@ -166,7 +166,7 @@ Maintainer: alexia <me@alexia.lol>
 Installed-Size: 188
 Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
-Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.1.deb
+Filename: ../pool/iphoneos-arm/net.cadoth.fakepass_0.1.1.deb
 Size: 14460
 MD5sum: 123318dbd6f8890854ba124790909ad1
 SHA1: 7b8cae0e6bc02e4aa5cb3a8dfc0343ed2b127f3e
@@ -184,7 +184,7 @@ Maintainer: alexia <me@alexia.lol>
 Installed-Size: 204
 Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
-Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.3_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/net.cadoth.fakepass_0.1.3_iphoneos-arm.deb
 Size: 13892
 MD5sum: fa71bb8ea59e2ac385578bb4df77f96c
 SHA1: 50bca74f9cd9361dd1cd011503672e4893001f8e
@@ -202,7 +202,7 @@ Maintainer: alexia <me@alexia.lol>
 Installed-Size: 204
 Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
-Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.4_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/net.cadoth.fakepass_0.1.4_iphoneos-arm.deb
 Size: 13592
 MD5sum: bcc9c4378275c09dfc9dd5fdb92a38c3
 SHA1: 71d173325156b9a3a1a161fe62479681853c6bfd
@@ -222,7 +222,7 @@ Maintainer: alexia <me@alexia.lol>
 Installed-Size: 208
 Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
-Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.5_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/net.cadoth.fakepass_0.1.5_iphoneos-arm.deb
 Size: 14076
 MD5sum: 17b2c3a3a786f50ce0345f426b567e67
 SHA1: 25b0bff67556ed140f485e873869a315cd2178df
@@ -240,7 +240,7 @@ Version: 5.0-electra2
 Section: Development
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 7.0)
-Filename: ./pool/iphoneos-arm/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
 Size: 23330860
 MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
 SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
@@ -260,7 +260,7 @@ Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 526
 Depends: mobilesubstrate
-Filename: ./pool/iphoneos-arm/preferenceloader_2.2.6_iphoneos-arm.deb
+Filename: ../pool/iphoneos-arm/preferenceloader_2.2.6_iphoneos-arm.deb
 Size: 36414
 MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
@@ -283,7 +283,7 @@ Installed-Size: 6664
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8, system-cmds (>= 880.60.2)
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./pool/iphoneos-arm/ws.hbang.newterm2_2.5-100.deb
+Filename: ../pool/iphoneos-arm/ws.hbang.newterm2_2.5-100.deb
 Size: 2147050
 MD5sum: 0c09dd7d1d9f1cc522ca56158aecad83
 SHA1: 571751464d1bb14e61e8c31ac42c3647e937f831
