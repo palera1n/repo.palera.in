@@ -297,111 +297,107 @@ Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm
 Support: https://hashbang.productions/support/
 
-Package: com.opa334.libsandy.rootless
+Package: com.opa334.libsandy
 Architecture: iphoneos-arm64
 Version: 1.0.4
 Section: System
 Maintainer: opa334
 Installed-Size: 496
-Provides: com.opa334.libsandy (= 1.0.4)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
 Filename: ./pool/iphoneos-arm64/com.opa334.libsandy_1.0.4_iphoneos-arm64.deb
-Size: 24496
-MD5sum: 3af97628a496e44d00affd5ae7b3d004
-SHA1: 5a9ea1cc8a978ef89655c25dcfb66a34fb4d3169
-SHA256: f7fcffe9beb2e9080da70b157b994932f57581cb80704297ec5bee5b5af5f17e
-SHA512: 5c0f8a147c96211dabea8b6eaf813da65d34ca34eb1f82ebbfe4aa462f1b9a67df2c6673005e167cd280dcd9700a7465226fb807afcc05cf9bfc5c77333c3926
+Size: 24480
+MD5sum: 21a249a9ac8eaf0d97a57d2f54836650
+SHA1: a71d2ad0a6977d1d1830fb453c44e66d34ea4960
+SHA256: ee0f7806d44a5fbfcc98579f4cf45c4d5120a76654df573dc4b189ce81a7f975
+SHA512: d910ecea95a47bf47b7f3ec50a69f8b6ea84b1c24509024c19c3c8857ce316a91f1eaf5d8facea5be7bf9e1c3fdbbd7c24a4abea2f50cfd9e3d812eb465ab23a
 Description: Securely extend the sandbox of system processes and user applications
 Tag: role::developer
-Name: libSandy (rootless)
+Name: libSandy
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
 
-Package: com.opa334.trollstorehelper.rootless
+Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 1.1.1
 Section: Applications
 Maintainer: opa334
-Provides: com.opa334.trollstorehelper (= 1.1.1)
 Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1.1_iphoneos-arm64.deb
-Size: 206872
-MD5sum: eed8d2321a7dc9aeb423efedb74e8ef8
-SHA1: 84a3f0bdba25e18ca13415d1b023625cdeaec1bd
-SHA256: b915e161f8b96392a12a3bdd8e1cdf689109b8716bdabb17836783d3bae0d7db
-SHA512: ef270ac16933ba5672151d9bfa5d886aeb6f6b74c5346e87e08c37356efdb23c2bafe4051c849da42745a538ddf42e78f9f87e181a1a7513319b6ba87cd5c611
+Size: 206900
+MD5sum: bfc5a22ecbcb0de8e87c4c3e0d250493
+SHA1: f82cb0365b8858c6514b8041080f5663ad3ecfce
+SHA256: 1f5556d31ae78b918352a9e4fd1f3ff4271a253751167d8e3b9fafbae51e260a
+SHA512: 711e1943654aaaf1b00baf1e3dab02aefbaa2325b9cdcebd522c1f5a7c4b551bbadcfbe59b32f9f73bf87018fb3f348d2e254bfc53ca87e2807c25b23f75ae38
 Description: Helper utility to install and manage TrollStore!
-Name: TrollStore Helper (rootless)
+Name: TrollStore Helper
 Author: opa334
 
-Package: com.opa334.trollstorehelper.rootless
+Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 1.1
 Section: Applications
 Maintainer: opa334
 Installed-Size: 616
-Provides: com.opa334.trollstorehelper (= 1.1)
 Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1_iphoneos-arm64.deb
-Size: 206248
-MD5sum: 4ed517e70e82ca5c7ce3e3232c4c321a
-SHA1: 3d4e5202bdc2ec2210daad31571b8c9d258afb04
-SHA256: 8d18f101e7ee09da8fd40dc320e748e5dd2cdac5b5ff2018fde7f78653a24c7f
-SHA512: 84da50bf2a5b350fe6ab594c36e08a6896d29d53392024421b245ac8d4bef745dd6cbb0e3c0d4598cb31c5afd43bde7e9b491d85ba2f299088ef3e5b802d8223
+Size: 206372
+MD5sum: 98bcd46dcc5164fb5201e5d459367158
+SHA1: 289dcd79d3e86d7d1b6d4b1bfbf6e9a070bc0470
+SHA256: 28448eec4f47ccbd980f77562d21d0c3d2cbadcd973216e238a414339787faed
+SHA512: 490fd8176448af799976bd9cac49b335d21e396e8ead97934659df6e997cd7a6b248d54d611143b3186d605181dae56ecb55298511222b5a82ae3576e04d1566
 Description: Helper utility to install and manage TrollStore!
-Name: TrollStore Helper (rootless)
+Name: TrollStore Helper
 Author: opa334
 
-Package: com.opa334.trollstorehelper.rootless
+Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 1.5.1
 Section: Applications
 Maintainer: opa334
 Installed-Size: 600
-Provides: com.opa334.trollstorehelper (= 1.5.1)
 Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.5.1_iphoneos-arm64.deb
-Size: 218416
-MD5sum: c92e2850c397360ccb2301690f3999a3
-SHA1: 9fbc77b35478fee4e603ca4a3fdf3b8301591bb0
-SHA256: c86264b1b6465caacb1f00311e6124548f56e961fec9fd1d0ec764e9f187b0dc
-SHA512: e20b7eae7cb9951e249e1f53b224c3c477ad7b6f377f3628c0a035624c361223b36ba6f09e3d12bd9c76c7736bfd31fc8887fd7efc68d05fc2dc4d1dcad0240d
+Size: 218464
+MD5sum: 21bb42ba3ac525ec934842f2e31aed04
+SHA1: d28d7c382cba8a303a11079fe99db4b9a8621ab3
+SHA256: a7ed3a4a921f72b0de8445743459165ef63813857a2524c8eb4c0e926ad21033
+SHA512: 5fde36ee25c6dd31c7dd737c8709dbbd2734f5022b663daf68d4472f42ffe40de8c7f8352caa5b03d33f63043472f14b26158ea1724a4846cc837b4da8daccc6
 Description: Helper utility to install and manage TrollStore!
-Name: TrollStore Helper (rootless)
+Name: TrollStore Helper
 Author: opa334
 
-Package: ellekit.rootless
+Package: ellekit
 Architecture: iphoneos-arm64
 Version: 0.1.31.gce07f57.dirty
 Priority: optional
 Section: Tweak Injection
 Maintainer: Mineek <mineek@mineek.nl>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit (= 0.1.31.gce07f57.dirty)
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-logging
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-logging
 Filename: ./pool/iphoneos-arm64/ellekit_0.1.31_iphoneos-arm64.deb
-Size: 251220
-MD5sum: c88651bc5224e33939978addfa0ff5bb
-SHA1: 7b1b5eeca7b6f4ea69ea88bb2133286196f11a70
-SHA256: a8d90e3dd828d306310b5ff4d3146f363d6eee09d590f6191fa136d3eab4f926
-SHA512: 6b438082732d6b0c6b4ff9217eaeedc88ca92ff7a68fd7c2d4a7689dafc847e1626ea1d4a31f8c1460c77ee16316a733c58c4adafb955bf43dd18ac6ac133a09
+Size: 251424
+MD5sum: 1547af620790d495d8b1154a4b1865fc
+SHA1: 51d3b8d32f451588c9eb309b565ddfb089bff8e2
+SHA256: a16ff23ba9726dbbcc1a3d5773bc3515b3058e13a91bd6f9a9956755e6625f74
+SHA512: 02cdaf7adbb04e1f4e22cd8f9228dfcae2c45fcbec6d1c5342ffe40ef87545fb84a76a2a0e05f85d8335d1bc9410ee87720793878f5b9a9bee4b4e21cceb0962
 Description: ElleKit tweak injection libraries and loaderInstalled-Size: 1716
-Name: ElleKit (Beta) (rootless)
+Name: ElleKit (Beta)
 Author: Evelyn
 
-Package: ellekit.rootless
+Package: ellekit
 Architecture: iphoneos-arm64
 Version: 0.2~22.b452d0c
 Priority: optional
 Section: Tweak Injection
 Maintainer: Dhinak G <dhinak@dhinak.net>
 Installed-Size: 1704
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit (= 0.2~22.b452d0c)
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
 Filename: ./pool/iphoneos-arm64/ellekit_0.2.22.b452d0c_iphoneos-arm64.deb
-Size: 237744
-MD5sum: 3d232170558af32c110a6acfbcdef427
-SHA1: ec06a2e73aba15f79288c05a4fa39dad32cb3ec4
-SHA256: 13191eae20ddbb5bc4d8373d0fb88c7efecff02b5aadb7dd4b72f46d902f8d45
-SHA512: f70198e054050095e85a84f61b3f840aac1720f769fffe38df4eebd273f965093b20a8cf8489fde5849d1791550732a1308acc51aed1d7d0e1106fe0a6641274
+Size: 237008
+MD5sum: a2ea7c7c3fc1ae99dcce4862c9446759
+SHA1: 3f7a4c39a76822f54246305a54d86da4c17999e2
+SHA256: 2a9f3014eeaca97e3730a635ce53c58068caf97782595e1f2edcccb09c778174
+SHA512: d5e82a2b9e7169369843d2e766d371162ef5365bc96258c7041ae1f34ac8cf819cd9ee160db7828cf6455831df8549fc7322789baf8b663b9cd80336e3408074
 Description: ElleKit tweak injection libraries and loader
  Currently NO SAFE MODE INCLUDED! Install at your own risk!
  ElleKit tweak injection libraries and loader. Currently in beta,
@@ -412,45 +408,43 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit (Beta)
 Author: Evelyn
 
-Package: net.cadoth.fakepass.rootless
+Package: net.cadoth.fakepass
 Architecture: iphoneos-arm64
 Version: 0.1.5
 Section: Tweaks
 Maintainer: alexia <me@alexia.lol>
 Installed-Size: 208
-Provides: net.cadoth.fakepass (= 0.1.5)
 Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
 Filename: ./pool/iphoneos-arm64/net.cadoth.fakepass_0.1.5_iphoneos-arm64.deb
-Size: 14216
-MD5sum: 6510b0e0f29287a936bb280c7968a5eb
-SHA1: 99fe05a64d3feebe25bca710619a7b66bc2de0dc
-SHA256: 0c924e2d0b2713a1c22c90870c837846a0546dd1b14bd83066025d85dd1d4935
-SHA512: 56cdb13eba662bda32a92490ac68f8b40985d514b325f371767f591bc3a36488890b983c28a59f86cd1a1170316b5a9a5481d0046554fac1c5d642763a85de32
+Size: 14196
+MD5sum: c33b83533a7baf4002acbe429f521c5f
+SHA1: 9f210da716b9f13671741245c49ed81a061020c4
+SHA256: e58aaf9fd916605a5a2762f74db99dcff2bc6eadb67a8f72951722134125132f
+SHA512: a6a2d1584e805f24af8c7267b80385a770d861a75a8bc79bc88c0bd9ad47b67c06a9d4278d620b4176693f056733b3c8a6e400d436f95a5674d6cd3cf33ce138
 Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
-Name: FakePass (rootless)
+Name: FakePass
 Author: alexia <me@alexia.lol>
 Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
 SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
 
-Package: preferenceloader.rootless
+Package: preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.2.6
 Section: System
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 180
-Provides: preferenceloader (= 2.2.6)
 Depends: mobilesubstrate
 Filename: ./pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
-Size: 11160
-MD5sum: b3b483963d71313ce925144f6d6e2a73
-SHA1: dfe7020ddf97709cfc152928577980dae3addc8a
-SHA256: 9379b2fd069b6d3f04358c13edb7a7da45e948fde9209393de185eab9b1f07e0
-SHA512: e6930592cdcf5ed3c2767bded25302893317a2ef1e1b4d4faa31950a47a3b8244c51203cb7599408cf29dd38024f92d80df7e1cd657d8e52dc1c7c3af322a414
+Size: 11144
+MD5sum: b3ba9336f5504974b600908a7bf4ef58
+SHA1: 935d37fe33334db61ea452f962c443582218d044
+SHA256: bb430282fc55d1b258214b061194eef38ac296f232b2fa45786ce94f02fab3a4
+SHA512: 886715580c7eec10ac978409033dad09804423622f182576b5576ee3fb5172d741d368893aed634f1730f6748d071a9deb845f7457d40518695bb56482d124bb
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
 Tag: role::hacker, purpose::library
-Name: PreferenceLoader (rootless)
+Name: PreferenceLoader
 Author: Dustin Howett <cydia.pl@relay.howett.net>
 dev: dustinhowett
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
@@ -459,37 +453,34 @@ Package: red.charlotte.cocha
 Architecture: iphoneos-arm64
 Version: 0.0.1
 Maintainer: Charlotte
-Provides: red.charlotte.cocha (= 0.0.1)
 Depends: mobilesubstrate
 Filename: ./pool/iphoneos-arm64/red.charlotte.cocha_0.0.1_iphoneos-arm64.deb
-Size: 44212
-MD5sum: 062fe7e9d40e32ef4ca3908f5cf46511
-SHA1: c7fce9cf6b1c2e7c31d87f78422c0b8e46bea310
-SHA256: b98312a5adabacfe361136e25742b618ac0ec0c60d873518e47d3589a4437c26
-SHA512: c22ade76c95532012063251c415a71b2d227f0c081342676dfb30f37ea02f6cafadefadbe0fdf6928d069adfff4b0ae5b7fe47bb541da73671c1272184d13020
+Size: 44108
+MD5sum: 790fcc7cc56b7bb480de7ca89dfe9704
+SHA1: ab1a1b85f62aa8a89467be4f5cc6ded751fe570b
+SHA256: 6734753234b81477e51aa4658fa2e9afc2a17398a1f79a22ccbc81a4b6c8c712
+SHA512: 8237a369ace318b39667d53ee890f456be7e9d36bcc15ec025ecc24b7d40b1131ac4c76cf768f3023d56851898f886ba5a13264bbc251f88e9585c58fb89cfb3
 Author: Charlotte
-Name: Cocha (rootless)
+Name: Cocha
 
-Package: ws.hbang.newterm2.rootless
+Package: ws.hbang.newterm2
 Architecture: iphoneos-arm64
 Version: 2.99
 Section: Terminal Support
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 1520
-Provides: ws.hbang.newterm2 (= 2.99)
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds (>= 880.60.2)
 Recommends: iterm2-shell-integration, gettext-localizations | com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
 Filename: ./pool/iphoneos-arm64/ws.hbang.newterm2_2.99_iphoneos-arm64.deb
-Size: 455616
-MD5sum: 74e49f61cc40372761d2c85e1c7b8e5a
-SHA1: bc02ddfccd756238f00682339a6b8b66b96099ae
-SHA256: 6310d75d88e98f33f44c7a0406c49eb383dd477cf9231653e32abc45ebd5cfb4
-SHA512: d7a6a2ddcaec3755592b710c5528988fb63bc9513151629e47272c270230cde51fea9be5f7d9a2e02ad592058bd3d642edddea15759eab9dd1e13360cfbe9f60
+Size: 455392
+MD5sum: 369ce0ab1a0300186a94e0d26261ec4a
+SHA1: 46131fac3be7bc8d8d5637f8d1b624566a1952a7
+SHA256: 6958cf5f660d514d51a4f0eb22a0e2b702dae1db73663650058c0cc073ce0ce9
+SHA512: 4f3962d2b3996f12e6188e7c47052805d27774f4f24b25f5d24e05ce7ce1c0dc384f9e61c076a211f2411798ea0b6671dd1095997147adecd2725a882e2df741
 Description: A powerful terminal app for iOS
 Tag: compatible_min::ios10.0
-Name: NewTerm 2 (rootless)
 Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Depiction: https://chariz.com/get/newterm

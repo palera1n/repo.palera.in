@@ -1,0 +1,190 @@
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: System
+Maintainer: opa334
+Installed-Size: 496
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./pool/iphoneos-arm64/com.opa334.libsandy_1.0.4_iphoneos-arm64.deb
+Size: 24480
+MD5sum: 21a249a9ac8eaf0d97a57d2f54836650
+SHA1: a71d2ad0a6977d1d1830fb453c44e66d34ea4960
+SHA256: ee0f7806d44a5fbfcc98579f4cf45c4d5120a76654df573dc4b189ce81a7f975
+SHA512: d910ecea95a47bf47b7f3ec50a69f8b6ea84b1c24509024c19c3c8857ce316a91f1eaf5d8facea5be7bf9e1c3fdbbd7c24a4abea2f50cfd9e3d812eb465ab23a
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Applications
+Maintainer: opa334
+Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1.1_iphoneos-arm64.deb
+Size: 206900
+MD5sum: bfc5a22ecbcb0de8e87c4c3e0d250493
+SHA1: f82cb0365b8858c6514b8041080f5663ad3ecfce
+SHA256: 1f5556d31ae78b918352a9e4fd1f3ff4271a253751167d8e3b9fafbae51e260a
+SHA512: 711e1943654aaaf1b00baf1e3dab02aefbaa2325b9cdcebd522c1f5a7c4b551bbadcfbe59b32f9f73bf87018fb3f348d2e254bfc53ca87e2807c25b23f75ae38
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 616
+Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.1_iphoneos-arm64.deb
+Size: 206372
+MD5sum: 98bcd46dcc5164fb5201e5d459367158
+SHA1: 289dcd79d3e86d7d1b6d4b1bfbf6e9a070bc0470
+SHA256: 28448eec4f47ccbd980f77562d21d0c3d2cbadcd973216e238a414339787faed
+SHA512: 490fd8176448af799976bd9cac49b335d21e396e8ead97934659df6e997cd7a6b248d54d611143b3186d605181dae56ecb55298511222b5a82ae3576e04d1566
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 600
+Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_1.5.1_iphoneos-arm64.deb
+Size: 218464
+MD5sum: 21bb42ba3ac525ec934842f2e31aed04
+SHA1: d28d7c382cba8a303a11079fe99db4b9a8621ab3
+SHA256: a7ed3a4a921f72b0de8445743459165ef63813857a2524c8eb4c0e926ad21033
+SHA512: 5fde36ee25c6dd31c7dd737c8709dbbd2734f5022b663daf68d4472f42ffe40de8c7f8352caa5b03d33f63043472f14b26158ea1724a4846cc837b4da8daccc6
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.1.31.gce07f57.dirty
+Priority: optional
+Section: Tweak Injection
+Maintainer: Mineek <mineek@mineek.nl>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-logging
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-logging
+Filename: ./pool/iphoneos-arm64/ellekit_0.1.31_iphoneos-arm64.deb
+Size: 251424
+MD5sum: 1547af620790d495d8b1154a4b1865fc
+SHA1: 51d3b8d32f451588c9eb309b565ddfb089bff8e2
+SHA256: a16ff23ba9726dbbcc1a3d5773bc3515b3058e13a91bd6f9a9956755e6625f74
+SHA512: 02cdaf7adbb04e1f4e22cd8f9228dfcae2c45fcbec6d1c5342ffe40ef87545fb84a76a2a0e05f85d8335d1bc9410ee87720793878f5b9a9bee4b4e21cceb0962
+Description: ElleKit tweak injection libraries and loaderInstalled-Size: 1716
+Name: ElleKit (Beta)
+Author: Evelyn
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.2~22.b452d0c
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 1704
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Filename: ./pool/iphoneos-arm64/ellekit_0.2.22.b452d0c_iphoneos-arm64.deb
+Size: 237008
+MD5sum: a2ea7c7c3fc1ae99dcce4862c9446759
+SHA1: 3f7a4c39a76822f54246305a54d86da4c17999e2
+SHA256: 2a9f3014eeaca97e3730a635ce53c58068caf97782595e1f2edcccb09c778174
+SHA512: d5e82a2b9e7169369843d2e766d371162ef5365bc96258c7041ae1f34ac8cf819cd9ee160db7828cf6455831df8549fc7322789baf8b663b9cd80336e3408074
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta)
+Author: Evelyn
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 208
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm64/net.cadoth.fakepass_0.1.5_iphoneos-arm64.deb
+Size: 14196
+MD5sum: c33b83533a7baf4002acbe429f521c5f
+SHA1: 9f210da716b9f13671741245c49ed81a061020c4
+SHA256: e58aaf9fd916605a5a2762f74db99dcff2bc6eadb67a8f72951722134125132f
+SHA512: a6a2d1584e805f24af8c7267b80385a770d861a75a8bc79bc88c0bd9ad47b67c06a9d4278d620b4176693f056733b3c8a6e400d436f95a5674d6cd3cf33ce138
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
+
+Package: preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.2.6
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 180
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/preferenceloader_2.2.6_iphoneos-arm64.deb
+Size: 11144
+MD5sum: b3ba9336f5504974b600908a7bf4ef58
+SHA1: 935d37fe33334db61ea452f962c443582218d044
+SHA256: bb430282fc55d1b258214b061194eef38ac296f232b2fa45786ce94f02fab3a4
+SHA512: 886715580c7eec10ac978409033dad09804423622f182576b5576ee3fb5172d741d368893aed634f1730f6748d071a9deb845f7457d40518695bb56482d124bb
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: red.charlotte.cocha
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Charlotte
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/red.charlotte.cocha_0.0.1_iphoneos-arm64.deb
+Size: 44108
+MD5sum: 790fcc7cc56b7bb480de7ca89dfe9704
+SHA1: ab1a1b85f62aa8a89467be4f5cc6ded751fe570b
+SHA256: 6734753234b81477e51aa4658fa2e9afc2a17398a1f79a22ccbc81a4b6c8c712
+SHA512: 8237a369ace318b39667d53ee890f456be7e9d36bcc15ec025ecc24b7d40b1131ac4c76cf768f3023d56851898f886ba5a13264bbc251f88e9585c58fb89cfb3
+Author: Charlotte
+Name: Cocha
+
+Package: ws.hbang.newterm2
+Architecture: iphoneos-arm64
+Version: 2.99
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1520
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds (>= 880.60.2)
+Recommends: iterm2-shell-integration, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/iphoneos-arm64/ws.hbang.newterm2_2.99_iphoneos-arm64.deb
+Size: 455392
+MD5sum: 369ce0ab1a0300186a94e0d26261ec4a
+SHA1: 46131fac3be7bc8d8d5637f8d1b624566a1952a7
+SHA256: 6958cf5f660d514d51a4f0eb22a0e2b702dae1db73663650058c0cc073ce0ce9
+SHA512: 4f3962d2b3996f12e6188e7c47052805d27774f4f24b25f5d24e05ce7ce1c0dc384f9e61c076a211f2411798ea0b6671dd1095997147adecd2725a882e2df741
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
+
+

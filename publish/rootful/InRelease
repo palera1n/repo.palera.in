@@ -1,0 +1,64 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: iphoneos-arm iphoneos-arm64
+Codename: palera1n-repo
+Components: main
+Date: Wed, 22 Mar 2023 23:32:34 +0000
+Description: palera1n's official repo
+Label: palera1n
+Origin: palera1n
+Suite: stable
+Version: 1.0
+MD5Sum:
+ bbd6bd2953152eebaf736c4bb03e9e72            16063 Packages
+ 4330ed9de4a2471e05f837a37bdc6897             5610 Packages.bz2
+ a78fca10c00fe1c52e08f623e77f2adb             5677 Packages.gz
+ 18beb78a6534f5c2d1cc9c8a3ed2848c             7954 Packages.lz4
+ b810464de8c42cb03761f30ed7aa3115             5284 Packages.lzma
+ c7e52929466abb39c808d3bf0323aab4             5332 Packages.xz
+ 17e103574dc8fc4d8f6d7940279e8a75             5378 Packages.zst
+ ddfb8a2d69a33e82ad73cd66022da8e4              220 Release
+SHA1:
+ ead03a57528a160d56448fef93fcdcd2f5688c44            16063 Packages
+ a38c138e5d7c8cffc02e97646b96a9d99c4da827             5610 Packages.bz2
+ 726d6debf29c10c1a2264f28db9e56c7a26b8377             5677 Packages.gz
+ 86ee06a588e2f8c9e08e2a06f1915950a660eae1             7954 Packages.lz4
+ 919c02b89b66dd5954c0c2c2bcf23e734529cde2             5284 Packages.lzma
+ e66a84e20b9467f205d2f2ed51d49706fcdc0ab9             5332 Packages.xz
+ 0eb9b7ac4aa1faf1d5ac0b74a0a10fd5903472fb             5378 Packages.zst
+ 2e53ad636d1fab88421ff27a3ebe7d7a0992c871              220 Release
+SHA256:
+ a5c803bc2d304c47a7dc48b1c4e297ee9ac3ed19d766ddcec26d06b1a17b63d3            16063 Packages
+ fcb754333a307ebf951a4a4b855efe07a8fd73b4e96b029ffc1520977daf2455             5610 Packages.bz2
+ b357f172599f189119ad19bf467d3ffda239f7922d18946e0b9b726dc8d172ff             5677 Packages.gz
+ 73c5b9f3d9ad5b65ff0966cd4fd4a4737f906471b14709d8f565b57b91fedde7             7954 Packages.lz4
+ d9ba6d17f261486ee61688c7e5c2a21777a6d368c8998f9095e66479e3872c2b             5284 Packages.lzma
+ 0457c99127e6ad655c99d54b4f99f9ca01c429844ef6a9c1235e8170e410a446             5332 Packages.xz
+ a65646e2281ed1c45acc6f780a8b0e8faafbf8b952510adde063cc8d6bd0060f             5378 Packages.zst
+ 51284f299059945aa24a3aaadb614c8a112b644296b61b91d35baaf5a40db698              220 Release
+SHA512:
+ 6e24270e88cccca43ce457ec2c6b9ec27a6abc76572bc57d595ba40b5d15d0341369f52daa7b476624e088a587b5d4dcb57ab3672ff761742b88284aa5f65a86            16063 Packages
+ e9fdbfab032fb17b63d4646f9766e34010980a5d59b6edfd73d73691deb929f7fe600a2d33ff85ba49a6d5ece592cf0abec4f389635696407f8492e38114c506             5610 Packages.bz2
+ b3795539a1a75d6e2d789313dfd44086257ffac9f9f81d066e1cc8472cb4320fda745ede26f6bff13afa178aace749fbd9e13dc925d61f668a66850729ab7ae9             5677 Packages.gz
+ bdbec3cb5ab1daf3fddea9c82adc13440b8ab93cb96b811eb492181dbca7ed82ccbccbe0d088b33e783febd012eaacd6a1ad7c6b80c162c7a4fdffa305975199             7954 Packages.lz4
+ 0213145e49a02de9971e34018ec919f91edac6ab93d76bb402a972050874473c1cb46dc34d2e666c3f7d686213b83c3eef2950e4e11ed6f16b3ee26ff549bf1c             5284 Packages.lzma
+ 80d587d4f11d90d34348509f9311228b13c8f15c0bda17fc7a264eac3d986ae9173444ae337b3f65d102532167acffae5999b2046483992bf98e8a37a88437e7             5332 Packages.xz
+ 37a4e3ecf3567bd4ddc4dea7febc0f03d3beeb1dc9dc0bbe4cb4ae256d5f000a4fdcb690003655d0e28c7f2b0618a6204b62521707cfe363d01029bc5244b454             5378 Packages.zst
+ a31bfd00cb8abc46e38cf07b18bb7be39d34c0f98f4e85402a7b810aeaeb25a8b2bd461e5882c6657cd5288a1fa3d85785330b81ab09502e2bcea77edbd8267d              220 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE+wT2yOxW2jLzMAjFPRsopfrMtTsFAmQbkBQACgkQPRsopfrM
+tTt2Bg/+JUSu4HBPiCnr+BsHMUDF8Wbe2VgkJ6U68jR44mXH8X/yJkx0A7vMcYZe
+8zfBot2we4yKSkP4iuVylIyVvYgVP9Spr0ft0UwwgLD4dvaNl5/lsOwgYwzZ7cfq
+J3iJi7SP6wtoDCxuSPzmn2ebDiqGaJPdJXUc/mIgErpxgSl/d6HG78EBRdUAf4rB
+uhX5fZtRXQaw7g5qyEoXOC7/U5CouEVWJbpnEJ7dW+ZB56yiy+VKL6IUq3zdCPIm
+tOjdEv57pog5MIwAskFdLa75e/h14wu60fcEondbHXePuEQZLvZg4TJFYh5cxyGk
+InCiyo2I2oGiecxsAtYOPBYh+3nC0vl2nyyIwa/lok7cTjBqD1nu9MyJNNi4IOwl
+Npe8Z83xqkTEJaGJPjkUW8vUamVw9rTKwN48cE0HEiMjTv931WsA4jfl0hXV0F5r
+Sfgcq98DOL1XCMQbgBIV2Ve7y43uqX/vutkPmF/OsTBhLqQsdfiJCbbHeuRAe1v+
+jEh4vYd/kFFYEyDGl+c0BDwMR7TgChQlX6dsT/j4U3U4zyuW1L8Wt0zpoDxVYfPH
+jK2jsxaq1DBefclw2kTGQyzDztGf0gfRz/Oi8NewUE//Vo0nIAPR40oiTLR21ThI
+t6Xg09NR25WPO589swUGHieaJ88VyPJ245TJIVJB47R88k0Su7s=
+=rcfS
+-----END PGP SIGNATURE-----

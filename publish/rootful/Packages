@@ -1,0 +1,339 @@
+Package: applist
+Architecture: iphoneos-arm
+Version: 1.5.16-palera1n1
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./pool/iphoneos-arm/applist_1.5.16-palera1n1_iphoneos-arm.deb
+Size: 105400
+MD5sum: af88067deb4da0b53cbe308ae2478ea5
+SHA1: 51c197fc20e6991138e54c2d91a8f9bf9d7d055e
+SHA256: c7f5aac3baea94709eb8bcd825790b37e9bd6124ba2c4d0ff501d6d5bb0904b8
+SHA512: 113be22fadce6137f3c3be210e7331080b290312600cb74ff06f89af01131d30863dd71518a484e0512b3bcc56c8257ba5dfa4a75df0ca2da7e9ff541178cf11
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
+Package: autosign
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Utilities
+Maintainer: Nebula <me@itsnebula.net>
+Depends: ldid, sed, file, mawk | gawk, firmware (>= 15.0)
+Filename: ./pool/iphoneos-arm/autosign_1.0.1_iphoneos-arm.deb
+Size: 1756
+MD5sum: 19f0f8083ef960015654b50e81fe9b5c
+SHA1: c46b3e3781bf9d462a74b8e3cf67a70e490372d4
+SHA256: f3349230aae04c1b4903bc483ce80ca17b5629f6391d5019932b60cead80182d
+SHA512: d6966de5b0d8a3a4ab052ccd099861ffdb4c748a4adbada2f52e700551d146a48d2fa05905e7537014bdfdf1834a29762b7aa765cf6a799b19993ceb684c8b83
+Description: Automatically signs binaries when installed with dpkg/apt. In Sileo, packages may appear as they are stuck at Queued, but you should wait, as AutoSign is processing the deb.
+Name: AutoSign
+Author: Nebula <me@itsnebula.net>, Ploosh, kristenl64
+Icon: https://cdn.discordapp.com/attachments/1028398976640229380/1051537598046281859/Frame_19.png
+
+Package: autosign
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Utilities
+Maintainer: Nebula <me@itsnebula.net>
+Depends: ldid, sed, file, mawk | gawk, firmware (>= 15.0)
+Filename: ./pool/iphoneos-arm/autosign_1.0.2_iphoneos-arm.deb
+Size: 1728
+MD5sum: 3e1eec23424fb89a8ff2162d569261fc
+SHA1: 1fecdf0da927a7a5555d9ec451af0d8e224c1fff
+SHA256: 8bb4f7e5bcffbc41946a4b1c739cfef8e3d3c83216a2815272ca5a5f09a41439
+SHA512: 94ab60757ba7f517b3b08637130d6d5f35a7d641955a718a2660d8b16c1f3bd51e2e7d06936386bd6fdbe67f4abcba8638d9ff48a48c30c4800762b3253c3967
+Description: Automatically signs binaries when installed with dpkg/apt. In Sileo, packages may appear as they are stuck at Queued, but you should wait, as AutoSign is processing the deb.
+Name: AutoSign
+Author: Nebula <me@itsnebula.net>, guacaplushy, woofy <admin@kristen.lc>
+Icon: https://cdn.discordapp.com/attachments/1028398976640229380/1051537598046281859/Frame_19.png
+
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 2.3.1+9.g200ddd5
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 27268
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.ex.substitute_2.3.1+9.g200ddd5_iphoneos-arm.deb
+Size: 7396812
+MD5sum: ef2b8cf4435eac40f44408c83c4a59b2
+SHA1: cb96e43bf91981bcbb5c5fae8e180b23ca7e94f7
+SHA256: 81a8ab27075317e42d9f34d32bfe772b0a6df1c317f64dd03c44c0dc11e2d70f
+SHA512: 43505f625b152009f0f2d1fc90e3e4af60a0defb2b894b52785cabb71967d36f20d839f606f09dd73014e91e34278e740457c3aa7d8d5398951feed1025c3e01
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 2.3.1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 27456
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.ex.substitute_2.3.1_iphoneos-arm.deb
+Size: 7442088
+MD5sum: dce90a30e8b20198762d81c5872ad1b3
+SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
+SHA256: b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6
+SHA512: 755bdbeafa9a15ad56e0bc263122b17b128ea76c2cb9d2412ae0f5468a87130914035c687d9efe9ed3b3828a9291106348711f900a4c828645079cb3b6aa46a4
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6005
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./pool/iphoneos-arm/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 2720
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 14.0), firmware (<< 17.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Size: 818258
+MD5sum: 62cce576295c7d61cb2d389bd2e8695f
+SHA1: fb302d66705dc6361bb27f56c9883e915134b3a5
+SHA256: 9dcbbe88da91cac82641b0e046a03cc07f7f602981c54ad9fa7ebc0b74c9a993
+SHA512: 6de466a3a87cd8844dd84d6e2f01d4d2dd64215647428f40eebd4bec63cabef42e8408faa6d28fc6b7ca6863762955033611d641ff0dabe46dc3694b6c3c648c
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Name: Orion (iOS 14)
+Author: Theos Team <theos@kabiroberai.com>
+
+Package: me.alexia.rocketbootstrapfix
+Architecture: iphoneos-arm
+Version: 0.1.3
+Section: System
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 0
+Depends: bsdiff, com.rpetrich.rocketbootstrap (= 1.0.10~beta1) | com.rpetrich.rocketbootstrap (= 1.0.10~beta1-palera1n1), coreutils, ldid (>= 2.1.5-procursus7)
+Filename: ./pool/iphoneos-arm/me.alexia.rocketbootstrapfix_0.1.3_iphoneos-arm.deb
+Size: 1668
+MD5sum: 809b05f89088762de6c3eae5f3c6225b
+SHA1: 37567d60d0c8d82e58d65618548a3baf4d7bbbcd
+SHA256: e8b64e9866edaea6fd90caf1e1b0836b3928e516374415cc4394b8e1a30d4f85
+SHA512: cb8d1142fc3601ba87f1fc15119f126e5981a41a7cd1e0d643c3f837dbdede7d4eab33d9e611d537aa54083f44abcc7130f357abd6c53493dcd3e8496f13585c
+Description: Fix RocketBootstrap on iOS 15+
+Name: RocketBootstrapFix
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/me.alexia.rocketbootstrapfix
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/me.alexia.rocketbootstrapfix.json
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 188
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.1.deb
+Size: 14460
+MD5sum: 123318dbd6f8890854ba124790909ad1
+SHA1: 7b8cae0e6bc02e4aa5cb3a8dfc0343ed2b127f3e
+SHA256: 3f0afb850d283db4bb4e2699bf25411402aec3c429beb9d90a71be15c4cc656b
+SHA512: 3bda2357608604295c3baaf4631e5b0af7f942506f391cb2b56b782e3f083f59330224f5d77b171a9725977970fa95d565bb2e16341a9f4c9923ae03707de7dc
+Description: Fake passcode for checkra1n/palera1n on A10/A11 iOS 14+
+Name: FakePass
+Author: alexia <me@alexia.lol>
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.3
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 204
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.3_iphoneos-arm.deb
+Size: 13892
+MD5sum: fa71bb8ea59e2ac385578bb4df77f96c
+SHA1: 50bca74f9cd9361dd1cd011503672e4893001f8e
+SHA256: e514f16b2982e6b8f952ffa97cfbcf750268c60a7e04e9f71e991d85ea0d1936
+SHA512: d616de017a815e9f973efb85930a3217b3a0be6f6657dba4e41873d9df7b7626cf91c96ad58f0d91b0a51fd68523ef80f0dbaf3d13d39b260040b7506ad65e1d
+Description: Fake passcode for checkra1n/palera1n on A10/A11 iOS 14+
+Name: FakePass
+Author: alexia <me@alexia.lol>
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.4
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 204
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.4_iphoneos-arm.deb
+Size: 13592
+MD5sum: bcc9c4378275c09dfc9dd5fdb92a38c3
+SHA1: 71d173325156b9a3a1a161fe62479681853c6bfd
+SHA256: c5a2b746e3062f1701ecabc19e7047c5679ff05c94a2277366e81cf9b539a184
+SHA512: 4db51360cb25c0b6feeb8716eaf4ecd91d7e675fd086ca0634afdd8fbff12744c4b238a697bde04f59da95fab33120ae12abcaeaa3938fa731cb53b103901222
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.5
+Section: Tweaks
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 208
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: cy+cpu.arm64e, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Filename: ./pool/iphoneos-arm/net.cadoth.fakepass_0.1.5_iphoneos-arm.deb
+Size: 14076
+MD5sum: 17b2c3a3a786f50ce0345f426b567e67
+SHA1: 25b0bff67556ed140f485e873869a315cd2178df
+SHA256: d9eff04e21427ec9fce615c2e6369849b5fe83d9673a376c4bd94b67f93bbe9a
+SHA512: db8cabc9d0d71cd811507601656162c6bd30301e7ac12dcaa19c67dcfc3d4863ddd768d57b0bff339195db0ccfdb903a41435aedda16a4bcb895ffd7e4d93f9f
+Description: Fake passcode for checkm8 jailbreaks on iOS 14+ on A11
+Name: FakePass
+Author: alexia <me@alexia.lol>
+Depiction: https://repo.alexia.lol/depictions/net.cadoth.fakepass
+SileoDepiction: https://repo.alexia.lol/sileo-depictions/net.cadoth.fakepass.json
+
+Package: org.swift.libswift
+Architecture: iphoneos-arm
+Version: 5.0-electra2
+Section: Development
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0)
+Filename: ./pool/iphoneos-arm/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Size: 23330860
+MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
+SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
+SHA256: 07adbccbde8682adb44e8dcf0bdd6bef5c909d879ca654e6533f8a52f1884ced
+SHA512: e6fd9eac7836dbdc2d9fceb12849c0a5f4a94fabf114e4e486e75449c0c3e0603f023be5ff2c53c41c6813056868fb61a646dd6142db4bf140ac11e9a5daeda1
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Name: libswift (stable)
+SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+dev: kabiroberai
+
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA1: c1d547036234756c5e75a633393d4ffa791b1126
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: ws.hbang.newterm2
+Architecture: iphoneos-arm
+Version: 2.5-100
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8, system-cmds (>= 880.60.2)
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/iphoneos-arm/ws.hbang.newterm2_2.5-100.deb
+Size: 2147050
+MD5sum: 0c09dd7d1d9f1cc522ca56158aecad83
+SHA1: 571751464d1bb14e61e8c31ac42c3647e937f831
+SHA256: bcdd43be87bc94aadee6841cfaa590fdeca4dee596d343496b2fdcde3e7845f6
+SHA512: ac66043683d3e9a8ec4f7bd62716127c06d0c4359cb9de4ae8f08bfdc22796522d32a3de783f3ca88afdcea161f6a10ab9864287723ddb517df931d4b0604f5d
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Name: NewTerm 2
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
+
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 15.0) | me.alexia.rocketbootstrapfix
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Installed-Size: 596
+Filename: https://rpetri.ch/repo/debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+Size: 38344
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager (64-bit only)
+Version: 4.0.0-6
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 23200
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Provides: com.tigisoftware.filza (= 4.0.0-6)
+Filename: https://tigisoftware.com/repo/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
+Size: 8700444
+MD5sum: 023705537cb119fd58564b5918ed5cc8
+SHA1: 7c3d8234fa820d3a5f17e52dba8c8ed4596547ab
+SHA256: 1dbe2b7ff2d9463bc92454b3ad3159fc2d3b1ab8dee9f40844d719c3d7c73397
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
