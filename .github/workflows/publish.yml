@@ -46,4 +46,4 @@ jobs:
           forceUpload: true
           dryRun: false
           localDir: 'publish/'
-          remoteDir: '/artifacts/loader/universal'
+          remoteDir: '/'
