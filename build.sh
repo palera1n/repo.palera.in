@@ -31,10 +31,6 @@ echo "[*] Generating Packages..."
 for d in "${dirs[@]}"; do
     set_arch_vars "$d"
     apt-ftparchive packages "$d" > $output_dir/Packages
-    # TODO: Figure out how to do this properly
-    if [[ $(basename "$d") != pool ]]; then
-        sed -i -r 's,^Filename: \./,Filename: ../,g' $output_dir/Packages
-    fi
     echo >> $output_dir/Packages
     cat "${extra[@]}" >> $output_dir/Packages 2>/dev/null
     zstd -q -c19 $output_dir/Packages > $output_dir/Packages.zst
