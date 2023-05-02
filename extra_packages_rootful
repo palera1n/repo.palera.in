@@ -1,6 +1,6 @@
-Package: com.rpetrich.rocketbootstrap
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 15.0) | me.alexia.rocketbootstrapfix
-Name: RocketBootstrap
+Package: com.rpetrich.rocketbootstrap.ios15
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 15.0) | me.alexia.rocketbootstrapfix, firmware (<< 16.0)
+Name: RocketBootstrap (iOS 15)
 Architecture: iphoneos-arm
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
@@ -18,6 +18,23 @@ MD5sum: b52417e29631c59cdb267379e71e2a69
 SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
 SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
 Size: 38344
+
+Package: com.rpetrich.rocketbootstrap.ios16
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: https://repo.theodyssey.dev/debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap (iOS 16)
 
 Package: com.tigisoftware.filza64bit
 Name: Filza File Manager (64-bit only)
@@ -37,3 +54,18 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
+
+Package: org.coolstar.libhooker
+Name: libhooker-shim
+Version: 0.0.1.1
+Section: Development
+Architecture: iphoneos-arm
+Author: coolstar
+Maintainer: coolstar
+Description: shim for those who can't use the real libhooker (e.g. iOS 10 or arm32)
+Size: 5436
+MD5sum: 4b6653470b9ef4d90f92b52be12d7def
+SHA256: b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61
+Filename: https://havoc.app/api/download/package/61f890c8304ffaa4a52e7b37/org.coolstar.libhooker_0.0.1.1.deb
+Depiction: https://havoc.app/depiction/libhookershim
+SileoDepiction: https://havoc.app/package/libhookershim/depiction.json
