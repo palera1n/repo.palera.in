@@ -30,8 +30,8 @@ jobs:
       - name: Import GPG Keys
         uses: crazy-max/ghaction-import-gpg@v4
         with:
-          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
-          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          gpg_private_key: ${{ secrets.PALERA1N_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PALERA1N_GPG_PASSPHRASE }}
 
       - name: Build repo
         run: |
