@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palera1n repo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <style>
-        body {
-            background: #1a1e23;
-            margin: 0;
-        }
-        #center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-h1 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 50px;
-  color: lightgray;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  animation: moveUpDown 3s ease-in-out infinite;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  color: lightgray;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  animation: moveUpDown 3s ease-in-out infinite;
-}
-.verticallinebreak {
-  border-left: 1px solid lightgray;
-  height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.packagemanager {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.packagemanager a img:hover {
-  transform: scale(1.1);
-}
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/cells.css">
+  <title>palera1n repo</title>
 </head>
 <body>
-    <div id="center">
-        <h1 style="color: #fff;">palera1n repo</h1>
-        <p style="color: #fff;">This repo should be included with palera1n already, but in case it wasnt, press the button below to add it.</p>
-    </div>
-        <div class="packagemanager">
-        <a href="sileo://source/https://repo.palera.in/" target="_blank"><img src="sileo.png" alt="sileo" width="32" height="32"></a>
-        <div class="verticallinebreak"></div>
-        <a href="zbra://sources/add/https://repo.palera.in/" target="_blank"><img src="zbra.png" alt="zbra" width="32" height="32"></a>
-        </div>
-    </body>
+
+  <!-- Title -->
+  <div style="padding-top: 16px;"></div>
+  <h1 style="color: white; text-align:left; font-size: 35px;">palera1n repo</h1>
+  
+  <!-- Package Managers table -->
+  <panel style="padding-top: -10px;">
+    <fieldset style="clear:both">
+      <a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.palera.in/">
+        <img src="styles/cydia.png" alt="Cydia Icon" class="icon">
+        Add to Cydia
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="installer://add/https://repo.palera.in/">
+        <img src="styles/installer5.png" alt="Installer5 Icon" class="icon">
+        Add to Installer
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="sileo://source/https://repo.palera.in/">
+        <img src="styles/sileo.png" alt="Sileo Icon" class="icon">
+        Add to Sileo
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="zbra://sources/add/https://repo.palera.in/">
+        <img src="styles/zeeb.png" alt="Zebra Icon" class="icon">
+        Add to Zebra
+      </a>
+    </fieldset>
+  </panel>
+  <div style="text-align:left;">
+    <h2 style="text-transform: none; padding-top: 0px; margin-right: 16px;">The order of package managers are in alphabetical order (A-Z).
+    </h2>
+  </div>
+
+
+  <!-- Information table -->
+  <div style="text-align:left;">
+    <h2>Information</h2>
+  </div>
+  <panel>
+    <fieldset style="clear:both; padding-top: 10px;">
+      <div>
+        This repository supports iphoneos-arm (Rootful) & iphoneos-arm64 (Rootless) architectures.
+        <br />
+        <br />
+        Includes the essentials for palera1n jailbreak, such as:
+        <br />- Substitute (tweak injection)
+        <br />- PreferenceLoader
+        <br />- palera1n iOS (using jailbroken phone to jailbreak another phone)
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="https://ios.cfw.guide/installing-palera1n/using-sileo.html#adding-repos">
+        Adding Repositories Guide (Sileo)
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="pool/">
+        Package Pool (Debs)
+      </a>
+    </fieldset>
+  </panel>
+  <div style="padding-bottom: 40px;"></div>
+  <!-- End -->
+</body>
 </html>
