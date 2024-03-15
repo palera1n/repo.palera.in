@@ -67,5 +67,7 @@ echo "[*] Copying files..."
 cp -R pool "$OUTPUT_DIR"
 cp *.png "$OUTPUT_DIR"
 cp index.html "$OUTPUT_DIR"
+mkdir "$OUTPUT_DIR/styles"
+cp -R styles/* "$OUTPUT_DIR/styles"
 
 echo "[*] Done!"
