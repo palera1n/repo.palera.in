@@ -5,9 +5,9 @@ OUTPUT_DIR="publish"
 script_full_path=$(dirname "$0")
 cd "$script_full_path" || exit 1
 rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR/{rootful,rootless}
+mkdir -p $OUTPUT_DIR/{rootful,rootless,appletv-rootful}
 
-dirs=(./pool ./pool/iphoneos-arm ./pool/iphoneos-arm64)
+dirs=(./pool ./pool/iphoneos-arm ./pool/iphoneos-arm64 ./pool/appletvos-arm64)
 
 set_arch_vars() {
     case $(basename "$1") in
@@ -22,6 +22,10 @@ set_arch_vars() {
         iphoneos-arm64)
             output_dir=$OUTPUT_DIR/rootless
             extra=(extra_packages_rootless)
+            ;;
+        appletvos-arm64)
+            output_dir=$OUTPUT_DIR/appletv-rootful
+            extra=(extra_packages_appletv_rootful)
             ;;
     esac
 }
@@ -50,7 +54,7 @@ for d in "${dirs[@]}"; do
         -o APT::FTPArchive::Release::Suite="stable" \
         -o APT::FTPArchive::Release::Version="1.0" \
         -o APT::FTPArchive::Release::Codename="palera1n-repo" \
-        -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64" \
+        -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 appletvos-arm64" \
         -o APT::FTPArchive::Release::Components="main" \
         -o APT::FTPArchive::Release::Description="palera1n's official repo" \
         release $output_dir > $output_dir/Release
