@@ -9,7 +9,6 @@ rm -rf $OUTPUT_DIR
 mkdir $OUTPUT_DIR
 
 echo "[*] Generating Packages..."
-
 apt-ftparchive packages ./pool > $OUTPUT_DIR/Packages
 zstd -q -c19 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.zst
 xz -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.xz
@@ -36,7 +35,7 @@ apt-ftparchive \
     -o APT::FTPArchive::Release::Suite="stable" \
     -o APT::FTPArchive::Release::Version="1.0" \
     -o APT::FTPArchive::Release::Codename="palera1n-repo" \
-    -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 appletvos-arm64" \
+    -o APT::FTPArchive::Release::Architectures="${ARCHS}" \
     -o APT::FTPArchive::Release::Components="main" \
     -o APT::FTPArchive::Release::Description="palera1n's official repo" \
     release $OUTPUT_DIR > $OUTPUT_DIR/Release
