@@ -16,14 +16,17 @@ set_arch_vars() {
             extra=(extra_packages*)
             ;;
         iphoneos-arm)
+            arch=iphoneos-arm
             output_dir=$OUTPUT_DIR/rootful
             extra=(extra_packages_rootful)
             ;;
         iphoneos-arm64)
+            arch=iphoneos-arm64
             output_dir=$OUTPUT_DIR/rootless
             extra=(extra_packages_rootless)
             ;;
         appletvos-arm64)
+            arch=appletvos-arm64
             output_dir=$OUTPUT_DIR/appletv-rootful
             extra=(extra_packages_appletv_rootful)
             ;;
@@ -35,8 +38,17 @@ echo "[*] Generating Packages..."
 for d in "${dirs[@]}"; do
     set_arch_vars "$d"
     apt-ftparchive packages "$d" > $output_dir/Packages
+    apt-ftparchive contents "$d" > $output_dir/Contents-"${arch}"
     echo >> $output_dir/Packages
     cat "${extra[@]}" >> $output_dir/Packages 2>/dev/null
+
+    zstd -q -c19 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".zst
+    xz -c9 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".xz
+    bzip2 -c9 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".bz2
+    gzip -nc9 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".gz
+    lzma -c9 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".lzma
+    lz4 -c9 $output_dir/Contents-"${arch}" > $output_dir/Contents-"${arch}".lz4
+
     zstd -q -c19 $output_dir/Packages > $output_dir/Packages.zst
     xz -c9 $output_dir/Packages > $output_dir/Packages.xz
     bzip2 -c9 $output_dir/Packages > $output_dir/Packages.bz2
