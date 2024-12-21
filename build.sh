@@ -1,7 +1,7 @@
 #!/bin/bash
 GPG_KEY="F3594A65343002C55E35FB1E9E7E89B50CCF8DAA"
 OUTPUT_DIR="publish"
-ARCHS="iphoneos-arm iphoneos-arm64 appletvos-arm64"
+ARCHS="iphoneos-arm iphoneos-arm64 appletvos-arm64 appletvos-arm64-rootlesss"
 
 script_full_path=$(dirname "$0")
 cd "$script_full_path" || exit 1
