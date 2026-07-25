@@ -38,13 +38,13 @@ jobs:
           bash build.sh
           
       - name: Upload files
-        uses: wangyucode/sftp-upload-action@v1.4.8
+        uses: wangyucode/sftp-upload-action@v3
         with:
-          host: ${{ secrets.REPO_FTP_HOST }}
-          port: ${{ secrets.REPO_FTP_PORT }}
+          host: ${{ secrets.NICKCHAN_FTP_HOST }}
+          port: ${{ secrets.NICKCHAN_FTP_PORT }}
           username: repo
-          password: ${{ secrets.REPO_FTP_PASS }}
+          password: ${{ secrets.NICKCHAN_FTP_PASS }}
           forceUpload: true
           dryRun: false
           localDir: 'publish/'
-          remoteDir: '/files'
+          remoteDir: '/www/repo.palera.in'
