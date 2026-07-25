@@ -42,7 +42,7 @@ jobs:
         with:
           host: ${{ secrets.NICKCHAN_FTP_HOST }}
           port: ${{ secrets.NICKCHAN_FTP_PORT }}
-          username: repo
+          username: palera1n
           password: ${{ secrets.NICKCHAN_FTP_PASS }}
           forceUpload: true
           dryRun: false
